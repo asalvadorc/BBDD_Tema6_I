@@ -1,0 +1,35 @@
+site_url : https://asalvadorc.github.io/BBDD_Tema4
+site_name: BD - Bases de Dades
+theme: 
+  name: readthedocs
+  logo: assets/logocaminas.png
+
+extra_css:
+  - css/extra.css
+  - img/favicon.ico 
+nav:
+  
+  - SQL - Consulta bàsica (part I):
+    - Objectius i Coneixements previs: BD-T06_SQL_I_PostgreSQL/objectius_i_coneixements_previs.md
+    - 1. Introducció: BD-T06_SQL_I_PostgreSQL/1_introducci.md
+    - 2. DDL i DML: BD-T06_SQL_I_PostgreSQL/2_ddl_i_dml.md
+    - 3. Client DBeaver instal·lació i confiuració: BD-T06_SQL_I_PostgreSQL/3_client_dbeaver_installaci_i_confiuraci.md
+    - 4. Client DBeaver utilització: BD-T06_SQL_I_PostgreSQL/4_client_dbeaver_utilitzaci.md
+    - 5. Dades dels exemples i els exercicis: BD-T06_SQL_I_PostgreSQL/5_dades_dels_exemples_i_els_exercicis.md
+    - 6. Operadors: BD-T06_SQL_I_PostgreSQL/6_operadors.md
+    - 7. Funcions: BD-T06_SQL_I_PostgreSQL/7_funcions.md
+    - 8. La consulta SELECT: BD-T06_SQL_I_PostgreSQL/8_la_consulta_select.md
+    - 9. Consulta bàsica: BD-T06_SQL_I_PostgreSQL/9_consulta_bsica.md
+    - 10. Àlies en les columnes: BD-T06_SQL_I_PostgreSQL/10_lies_en_les_columnes.md
+    - 11. La clàusula WHERE: BD-T06_SQL_I_PostgreSQL/11_la_clusula_where.md       
+    - 12. Funcions d'agregat: BD-T06_SQL_I_PostgreSQL/12_funcions_dagregat.md     
+    - 13. La clàusula GROUP BY: BD-T06_SQL_I_PostgreSQL/13_la_clusula_group_by.md      
+    - 14. La clàusula HAVING: BD-T06_SQL_I_PostgreSQL/14_la_clusula_having.md    
+    - 15. La clàusula ORDER BY: BD-T06_SQL_I_PostgreSQL/15_la_clusula_order_by.md 
+    - 16. El predicat DISTINCT: BD-T06_SQL_I_PostgreSQL/16_el_predicat_distinct.md  
+    - 17. La clàusula LIMIT .. OFFSET: BD-T06_SQL_I_PostgreSQL/17_la_clusula_limit__offset.md  
+    - 18. Consulta de creació de taules: BD-T06_SQL_I_PostgreSQL/18_consulta_de_creaci_de_taules.md
+    - 19. Ordre amb què s'executa una sentència SQL: BD-T06_SQL_I_PostgreSQL/19_ordre_amb_qu_sexecuta_una_sentncia_sql.md
+    - Exercicis de tot el tema, amb els resultats: BD-T06_SQL_I_PostgreSQL/exercicis_de_tot_el_tema_amb_els_resultats.md
+
+    
