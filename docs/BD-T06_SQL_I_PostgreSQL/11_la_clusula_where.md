@@ -15,7 +15,7 @@ expressions, on poden entrar columnes, constants, paràmetres, funcions vàlides
 de PostgreSQL, ... unides per operadors aritmètics. Els operadors que es poden
 utilitzar per a fer les comparacions són:
 
-  * **< <= = >= > <> (!=) ** (distint)
+  * **< <= = >= > <> (!=)** (distint)
 
   * **BETWEEN** _valor1_**AND** _valor2_ (els valors compresos entre valor1 i valor2)
 
