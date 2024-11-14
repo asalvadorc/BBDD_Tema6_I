@@ -10,12 +10,11 @@ conegudes.
 A més, aquesta característica escapa del estàndard ANSI SQL, per la qual cosa
 no li donarem excessiva importància.
 
-Sintaxi
-
+**<u>Sintaxi</u>**
+```
 SELECT <columnes> INTO nova_taula  
-
-> FROM <taules>
-
+  FROM <taules>
+```
 La sentència pot dur qualsevol clàusula o predicat dels vistos fins ara, i el
 resultat que done aquesta sentència, es guardarà en una nova taula, amb el nom
 especificat.
@@ -37,30 +36,29 @@ cancelar.
 > no crear la taula encara. Quan estiguem segurs que el resultat és el que
 > desitgem, afegim el INTO, i la taula es crearà a més garanties.
 
-Exemples
+**<u>Exemples</u>**
 
-  1. Crear una còpia de la taula comarques anomenada **COMARQUES_COPIA******.
-
+  1) Crear una còpia de la taula comarques anomenada **COMARQUES_COPIA******.
+```
 SELECT * INTO COMARQUES_COPIA  
-FROM COMARQUES
-
+  FROM COMARQUES
+```
 Per a no "embrutar" la Base de Dades, podem esborrar-la després d'haver vist
 la seua creació amb la sentència
-
+```
 DROP TABLE COMARQUES_COPIA
-
-  2. Crear una taula anomenada **RESUM_COMARQUES** que continga el nom de la comarca, el número de pobles, el total de població i l'altura mitjana
-
-SELECT nom_c, COUNT(*) AS num_pobles, SUM(poblacio) AS poblacio ,
-SUM(extensio) AS extensio , AVG(altura) AS altura_mitjana INTO RESUM_COMARQUES  
-FROM POBLACIONS  
-GROUP BY nom_c
-
+```
+  2) Crear una taula anomenada **RESUM_COMARQUES** que continga el nom de la comarca, el número de pobles, el total de població i l'altura mitjana
+```
+SELECT nom_c, COUNT(*) AS num_pobles, SUM(poblacio) AS poblacio , SUM(extensio) AS extensio , AVG(altura) AS altura_mitjana INTO RESUM_COMARQUES  
+  FROM POBLACIONS  
+  GROUP BY nom_c
+```
 Igual que en l'anterior, després d'haver vist la seua creació i contingut,
 podem esborrar-la amb la sentència
-
+```
 DROP TABLE RESUM_COMARQUES
-
+```
 
 ## ![](icon_activity.gif) Exercicis apartat 18
 

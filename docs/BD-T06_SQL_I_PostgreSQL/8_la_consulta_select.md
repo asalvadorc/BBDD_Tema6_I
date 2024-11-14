@@ -12,7 +12,7 @@ crear taules noves que serien el resultat d'una consulta d'altres taules.
 Veurem a continuació la sintaxi general de la instrucció, i posteriorment
 cadascuna de les clàusules:
 
-<u>Sintaxi</u>
+**<u>Sintaxi</u>**
 ```
 SELECT [DISTINCT] <columnes>  
 [ INTO <clàusula> ]  
@@ -26,7 +26,7 @@ FROM <clàusula>
 Com veieu, les úniques clàusules obligatòries són les **columnes** que volem
 que isquen com a resultat i la del **FROM**(on es diu d'on venen les dades).
 
-**<u>Nota</u>**
+**Nota**
 
 En PostgreSQL no es distingeix entre majúscules i minúscules. Millor dit,
 PostgreSQL passa de majúscules a minúscules tots els noms de taula o de camp o

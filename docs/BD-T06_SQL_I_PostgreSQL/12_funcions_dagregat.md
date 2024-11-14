@@ -1,6 +1,6 @@
 # 12\. Funcions d'agregat
 
-Les**funcions d'agrega** t, o funcions de domini agregat, són aquelles que
+Les **funcions d'agrega** t, o funcions de domini agregat, són aquelles que
 trauen un resultat a partir dels valors d'un determinat camp en un conjunt de
 files. Així tindrem una funció per a **sumar** els valors d'una columna, o
 **comptar** -los, o traure la **mitjana** , o el **màxim** , ...
@@ -10,7 +10,7 @@ Actuaran sobre un conjunt de files determinat, que en principi suposarem que
 que el conjunt de files sobre el qual es calcula una funció d'agregat, el
 podrem canviar amb la clàusula **GROUP BY**.
 
-Sintaxi
+**<u>Sintaxi</u>**
 
   * **COUNT (* | <expressió> ) **: compta el número de files; si es posa una columna o expressió, no es comptaran els valors nuls.
 
@@ -27,45 +27,44 @@ Sintaxi
   * **MIN ( <expressió> ) **: calcula el mínim.
 
 Per exemple, si volem saber el nombre d'Instituts:
-
+```
 SELECT COUNT(*) AS "Nombre d'Instituts"  
-
-> FROM INSTITUTS;
-
-Nota
+   FROM INSTITUTS;
+```
+**Nota**
 
 És interessant la utilització d'àlias, per a que no apareguen capçaleres com
 _**count**_
 
-Exemples
+**<u>Exemples</u>**
 
-  1. Comptar el nombre total de pobles.
-
+  1) Comptar el nombre total de pobles.
+```
 SELECT Count(*)  
 FROM POBLACIONS;
-
-  2. Comptar el nombre de poblacions de la **Plana Alta**.
-
+```
+  2) Comptar el nombre de poblacions de la **Plana Alta**.
+```
 SELECT Count(*)  
 FROM POBLACIONS  
 WHERE nom_c = 'Plana Alta';
-
-  3. Calcular la mitjana d'habitants dels pobles de la **Plana Alta** i **Plana Baixa**.
-
+```
+  3) Calcular la mitjana d'habitants dels pobles de la **Plana Alta** i **Plana Baixa**.
+```
 SELECT AVG(poblacio)  
 FROM POBLACIONS  
 WHERE nom_c = 'Plana Alta' OR nom_c = 'Plana Baixa'
-
-  4. Calcular la mitjana de densitat de les poblacions. La densitat es calcula com el número d'habitants dividit per l'extensió.
-
+```
+  4) Calcular la mitjana de densitat de les poblacions. La densitat es calcula com el número d'habitants dividit per l'extensió.
+```
 SELECT AVG(poblacio/extensio)  
 FROM POBLACIONS;
-
-  5. Calcular l'altura màxima i mínima de tots els pobles.
-
+```
+  5) Calcular l'altura màxima i mínima de tots els pobles.
+```
 SELECT MAX(altura), MIN(altura)  
 FROM POBLACIONS
-
+```
 
 ## ![](icon_activity.gif) Exercicis apartat 12
 
@@ -84,7 +83,6 @@ deixa igual el valor). Per tant l'heu d'utilitzar d'aquesta manera:
 **COALESCE(stock,0)**
 
 **6.19** Comptar **quantes factures** té el client **375**  
-****
 
 **6.20** Calcular el **descompte màxim** , el **mínim** i el descompte
 **mitjà** de les **factures**.

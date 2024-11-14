@@ -10,13 +10,13 @@ els que acomplesquen la condició del HAVING.
 
 També podríem dir que el HAVING és al GROUP BY, el que el WHERE és al SELECT
 
-Sintaxi
-
+**<u>Sintaxi</u>**
+```
 SELECT <columnes>  
-FROM <taules>  
-[GROUP BY <columnes>]  
-HAVING <condició>
-
+  FROM <taules>  
+  [GROUP BY <columnes>]  
+  HAVING <condició>
+```
 Únicament comentarem el cas en què acompanya al GROUP BY. I com hem dit, el
 que fa és filtrar els grups: dels grups resultants del GROUP BY, només eixiran
 els que acomplesquen la condició.
@@ -27,22 +27,22 @@ grups una vegada fets, i aleshores ja no es podrà anar a un element del grup.
 
 Per exemple, aquesta sentència servirà per traure les comarques on hi ha més
 de 20 pobles, i el número que hi ha:
-
+```
 SELECT nom_c, COUNT(*)  
-FROM POBLACIONS  
-GROUP BY nom_c  
-HAVING COUNT(*) > 20;
+  FROM POBLACIONS  
+  GROUP BY nom_c  
+  HAVING COUNT(*) > 20;
+```
+**<u>Exemples</u>**
 
-Exemples
-
-  1. Traure aquelles poblacions que tenen més d'un de Centres Integrats de Formació Professional. La manera de saber que és un Centre Integrat és perquè el seu nom comença per CIPFP. De moment només traurem el codi de la població, i així només ens fa falta la taula INSTITUTS. Més avant aprendrem a agafar les dades de més d'una taula, i aleshores traurem també el nom de la població
-
+  1) Traure aquelles poblacions que tenen més d'un de Centres Integrats de Formació Professional. La manera de saber que és un Centre Integrat és perquè el seu nom comença per CIPFP. De moment només traurem el codi de la població, i així només ens fa falta la taula INSTITUTS. Més avant aprendrem a agafar les dades de més d'una taula, i aleshores traurem també el nom de la població
+```
 SELECT cod_m, COUNT(*)  
-FROM INSTITUTS  
-WHERE nom LIKE 'CIPFP%'  
-GROUP BY cod_m  
-HAVING COUNT(*) > 1
-
+  FROM INSTITUTS  
+  WHERE nom LIKE 'CIPFP%'  
+  GROUP BY cod_m  
+  HAVING COUNT(*) > 1
+```
 > El que fem en aquesta sentència és, de la taula INSTITUTS seleccionar
 > únicament els Centres Integrats (utilitzant l'operador LIKE per a que
 > comencen per CIPFP)i i després agrupar pel codi de municipi. Una vegada fets
@@ -51,22 +51,19 @@ HAVING COUNT(*) > 1
 > traurem el codi del municipi i el número de Centres Integrats (que sempre
 > serà igual o major que 2).
 
-  2. Calcular el número d'habitants màxim, el mínim i el número d'habitants mitjà de les poblacions de les comarques amb més de 20 pobles.
-
-SELECT nom_c , COUNT(cod_m) AS "Número de pobles" , Max(poblacio) AS Màxim ,
-Min(poblacio) AS Mínim , Avg(poblacio) AS Mitjana  
-FROM POBLACIONS  
-GROUP BY nom_c  
-HAVING COUNT(cod_m) > 20;
-
-  3. Traure l'altura mitjana, total de població i població mitjana, d'aquelles comarques que tenen una altura mitjana superior a 800 metres.
-
-SELECT nom_c , AVG(altura) AS "Altura mitjana" , SUM(poblacio) AS "Total
-població" , Avg(poblacio) AS "Població mitjana"  
-FROM POBLACIONS  
-GROUP BY nom_c  
-HAVING AVG(altura) > 800;
-
+  2) Calcular el número d'habitants màxim, el mínim i el número d'habitants mitjà de les poblacions de les comarques amb més de 20 pobles.
+```
+SELECT nom_c , COUNT(cod_m) AS "Número de pobles" , Max(poblacio) AS Màxim , Min(poblacio) AS Mínim , Avg(poblacio) AS Mitjana  
+  FROM POBLACIONS  
+  GROUP BY nom_c  20;
+```
+  3) Traure l'altura mitjana, total de població i població mitjana, d'aquelles comarques que tenen una altura mitjana superior a 800 metres.
+```
+SELECT nom_c , AVG(altura) AS "Altura mitjana" , SUM(poblacio) AS "Total població" , Avg(poblacio) AS "Població mitjana"  
+  FROM POBLACIONS  
+  GROUP BY nom_c  
+  HAVING AVG(altura) > 800;
+```
 
 ## ![](icon_activity.gif) Exercicis apartat 14
 
@@ -79,23 +76,24 @@ entra l'article en una linia de factura, però el resultat que s'ha de mostrar
 **6.29** Traure els pobles que tenen entre 3 i 7 clients. Traure només el codi
 del poble i aquest número
 
-****6.30** **Traure les categories que tenen més d'un article "car" (de més de
+**6.30** Traure les categories que tenen més d'un article "car" (de més de
 100 €). Observeu que també ens eixirà la categoria NULL, és a dir, apareixerà
 com una categoria aquells articles que no estan catalogats.
 
-****6.31** **Traure els clients que tenen més d'una factura, amb el número de
+**6.31** Traure els clients que tenen més d'una factura, amb el número de
 factures.
 
-******6.32**** **Modificar l'anterior per a traure els clients que tenen més
+**6.32** Modificar l'anterior per a traure els clients que tenen més
 d'una factura en el primer trimestre.
 
-******6.33**** **Calcular el total de cada factura d'aquelles factures que
+**6.33** Calcular el total de cada factura d'aquelles factures que
 tenen 10 o més línies de factura, sense aplicar descomptes ni IVA (com la
 consulta **6.26**), i també aplicant el descompte que consta en la línia de
 factura (no el descompte de tota la factura). Tindrem el problema que el valor
 NULL és especial, i en operar amb qualsevol altre valor donarà NULL. En aquest
 cas clarament l'hem de considerar com un descompte 0. Podeu utilitzar una
-funció que substitueix els valors nuls trobats en el primer paràmetre, pel
+funció que substitueix els 
+HAVING COUNT(cod_m) > valors nuls trobats en el primer paràmetre, pel
 segon paràmetre d'aquesta manera: **COALESCE(dte,0)**
 
 Llicenciat sota la  [Llicència Creative Commons Reconeixement NoComercial
