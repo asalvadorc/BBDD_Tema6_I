@@ -24,39 +24,41 @@ tercera part d'aquest tema, quan les sentències de creació de taules.
 Per tant, fixeu-vos sobretot en els opradors **aritmètics** , de **cadena** i
 de **comparació**.
 
-Operadors aritmètics
+**<u>Operadors aritmètics</u>**
 
-**+** |  Suma |  **-** |  Resta |  ***** |  Multiplicació |  **/** |  Divisió  
----|---|---|---|---|---|---|---  
-**^** |  Exponenciació |  **|/** |  Arrel quadrada |  **!** |  Factorial |  **%** |  Mòdul (rest de la divisió)  
+
++ |  Suma |  - |  Resta |  * |  Multiplicació |  / |Divisió  
+---|---|---|---|---|---|---|---
+^ |  Exponenciació |  \|/ |  Arrel quadrada |  ! |  Factorial |  % |  Mòdul (rest de la divisió)  
   
 Exemples
-
+```
 SELECT |/16;
 
 SELECT 5 ^ 3;
 
 SELECT 5!;
+```
+**<u>Operadors de cadena</u>**
 
-Operadors de cadena
-
-**||** |  Concatenació  
+\|\| |  Concatenació  
 ---|---  
   
 Exemples
-
+```
 SELECT 'Data i hora actual: ' || Now();
+```
+**<u>Operadors de comparació</u>**
 
-Operadors de comparació
+= |  Igual | < > | Distint | != |  Distint | | |
+---|---|---|---|---|---|---|---
+\> |  Major |  > = |  Major o igual |  < |  Menor |  < = |  Menor o igual
 
-**=** |  Igual |  **< >** |  Distint |  **!=** |  Distint |  |   
----|---|---|---|---|---|---|---  
-**>** |  Major |  **> =** |  Major o igual |  **<** |  Menor |  **< =** |  Menor o igual  
   
 S'utilitzen principalment en les condicions. Tornen sempre un valor booleà
 (true o false)
 
-Operador conversor de tipus
+**<u>Operador conversor de tipus</u>**
 
 **::_tipus_**
 
@@ -82,7 +84,7 @@ tipus de la dada és POINT.
 
 També ens serviria la funció **point ('(0,0)')**
 
-Operadors Geomètrics
+**<u>Operadors Geomètrics</u>**
 
 **Operador** |  **Descripció** |  **Utilització**  
 ---|---|---  
@@ -94,14 +96,14 @@ La llista d'operadors és molt més llarga, però ací només volem mostrar-ne
 algun a mode il·lustratiu.
 
 Podem fer comprovacions d'aquest tipus:
-
+```
 SELECT '(0,0)'::point <-> '(3,4)'::point;
-
+```
 que ens donarà la **distància** entre el punt **(0,0)** i el punt **(3,4)**.
 Aquesta distància ha de ser 5.
-
+```
 SELECT '(1,1)'::point <@ '((0,0),2)'::circle;
-
+```
 que ens dirà si el **punt** **(1,1)** està **dins** del **cercle amb origen
 (0,0) i radi 2**. Com que sí que està tornarà el valor **true** (vertader).
 

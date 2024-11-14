@@ -8,12 +8,14 @@ estructures de les taules i el contingut de les taules. En aquest sentit
 tindrem 2 subtipus de llenguatges:
 
   * **DDL** (_Data Definition Language_ o _Llenguatge de Definició de Dades_): permet definir, modificar o esborrar les estructures, com poden ser taules, vistes, índex, ... i fins i tot Bases de Dades. Bàsicament les sentències són 3:   
-  
-**CREATE  
-** | per a crear l'estructura  
+
+
+  |    |    |     
 ---|---  
+**CREATE** | per a crear l'estructura   
 **ALTER** | per a modificar-la  
 **DROP** | per a esborrar-la  
+
 
   * **DML** (_Data Manipulation Language_ o _Llenguatge de Manipulació de Dades_): permet accedir al contingut de les estructures, a les dades. Aquest accés pot ser de dos tipus: per a consultar o per a modificar les dades   
   
@@ -21,10 +23,11 @@ Per a consultar:
 **SELECT**  
   
 Per a modificar  
-**INSERT** | insereix noves files  
+
+  |    |    |     
 ---|---  
-**UPDATE  
-** | modifica el contingut de files ja existents  
+**INSERT** | insereix noves files  
+**UPDATE** | modifica el contingut de files ja existents  
 **DELETE** | esborra files  
 
 El llenguatge SQL és més extens que les sentències anteriors, incorporant

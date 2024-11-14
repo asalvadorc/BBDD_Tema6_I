@@ -1,8 +1,7 @@
 # Objectius i Coneixements previs
 
-![](icon_objectives.gif)
 
-## Objectius
+## ![](icon_objectives.gif) Objectius
 
 L'objectiu primordial és **dominar el llenguatge SQL** , per a poder fer
 sentències de dificultat mitjana-alta. En particular s'hauran de saber fer:
@@ -30,9 +29,8 @@ Per l'extensió del tema, el dividirem en 3 parts.
   * Continuarem amb les consultes més complicades del SELECT.
   * Per últim veurem les sentències DDL i les de manipulació de dades.
 
-![](icon_preknowledge.gif)
 
-## Coneixements previs
+## ![](icon_preknowledge.gif) Coneixements previs
 
 Els coneixements previs estrictes del tema és el Model Relacional, encara que
 no el podrem deslligar de tot l'entorn que ens estem construint a l'hora de

@@ -48,7 +48,7 @@ La primera vegada que arranquem el programa, segurament ens demanarà per fer
 la primera connexió. Arribarem a la mateixa finestra cada vegada que anem a
 fer una nova connexió.
 
-Primera connexió a PostgreSQL: geo
+**<u>Primera connexió a PostgreSQL: geo</u>**
 
 Especificarem que volem connectar a PostgreSQL i a continuació donarem les
 dades de connexió, que són aquestes:
@@ -66,7 +66,7 @@ Aquestes són les finestres on especificaríem l'anterior:
 ![](T6_1_3_2.png) | ![](T6_1_3_3.png)  
 ---|---  
   
-Segona connexió a PostgreSQL: factura
+**<u>Segona connexió a PostgreSQL: factura</u>**
 
 Per als exercicis treballarem sobre una altra Base de Dades més completa que
 ens done més joc a l'hora de fer les sentències SQL. La Base de Dades
@@ -84,7 +84,7 @@ Aquestes són les pantalles on faríem la connexió:
 ![](T6_1_3_2.png) | ![](T6_1_3_4.png)  
 ---|---  
   
-Exemple de connexió a Access: Empresa.accdb
+**<u>Exemple de connexió a Access: Empresa.accdb</u>**
 
 Únicament a mode il·lustratiu anem a mostrar una altra connexió diferent a les
 de PostgreSQL. Com que de moment només havíem treballat amb **Access** , anem
