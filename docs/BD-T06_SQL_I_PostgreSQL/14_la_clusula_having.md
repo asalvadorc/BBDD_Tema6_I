@@ -67,28 +67,28 @@ SELECT nom_c , AVG(altura) AS "Altura mitjana" , SUM(poblacio) AS "Total poblaci
 
 ## ![](icon_activity.gif) Exercicis apartat 14
 
-**6.28** Calcular la mitjana de quantitats demanades d'aquells articles que
+**4.28** Calcular la mitjana de quantitats demanades d'aquells articles que
 s'han demanat més de dues vegades. Observeu que la taula que ens fa falta és
 LINIA_FAC, i que la condició (en el HAVING) és sobre el número de vegades que
 entra l'article en una linia de factura, però el resultat que s'ha de mostrar
 és la mitjana de la quantitat.
 
-**6.29** Traure els pobles que tenen entre 3 i 7 clients. Traure només el codi
+**4.29** Traure els pobles que tenen entre 3 i 7 clients. Traure només el codi
 del poble i aquest número
 
-**6.30** Traure les categories que tenen més d'un article "car" (de més de
+**4.30** Traure les categories que tenen més d'un article "car" (de més de
 100 €). Observeu que també ens eixirà la categoria NULL, és a dir, apareixerà
 com una categoria aquells articles que no estan catalogats.
 
-**6.31** Traure els clients que tenen més d'una factura, amb el número de
+**4.31** Traure els clients que tenen més d'una factura, amb el número de
 factures.
 
-**6.32** Modificar l'anterior per a traure els clients que tenen més
+**4.32** Modificar l'anterior per a traure els clients que tenen més
 d'una factura en el primer trimestre.
 
-**6.33** Calcular el total de cada factura d'aquelles factures que
+**4.33** Calcular el total de cada factura d'aquelles factures que
 tenen 10 o més línies de factura, sense aplicar descomptes ni IVA (com la
-consulta **6.26**), i també aplicant el descompte que consta en la línia de
+consulta **4.26**), i també aplicant el descompte que consta en la línia de
 factura (no el descompte de tota la factura). Tindrem el problema que el valor
 NULL és especial, i en operar amb qualsevol altre valor donarà NULL. En aquest
 cas clarament l'hem de considerar com un descompte 0. Podeu utilitzar una

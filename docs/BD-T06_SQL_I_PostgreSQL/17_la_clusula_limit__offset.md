@@ -102,11 +102,11 @@ SELECT cod_m , COUNT(*)
 
 ## ![](icon_activity.gif) Exercicis apartat 17
 
-**6.44** Traure tota la informació dels dos articles més cars.
+**4.44** Traure tota la informació dels dos articles més cars.
 
-**6.45** Traure el codi de les tres ciutats amb més clients
+**4.45** Traure el codi de les tres ciutats amb més clients
 
-**6.46** Traure el venedor que ha venut menys factures  
+**4.46** Traure el venedor que ha venut menys factures  
 
 **6.47** Traure les tres factures més cares (sense comptar els descomptes)
 

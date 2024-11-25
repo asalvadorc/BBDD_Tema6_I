@@ -62,12 +62,12 @@ DROP TABLE RESUM_COMARQUES
 
 ## ![](icon_activity.gif) Exercicis apartat 18
 
-**6.49** Crear una taula anomenada **ARTICLE_999x** , on 999 han de ser les 3
+**4.49** Crear una taula anomenada **ARTICLE_999x** , on 999 han de ser les 3
 últimes xifres del DNI, i x la lletra del teu NIF, que siga una còpia de la
 taula ARTICLE, però substituint els valors nuls de **stock** i **stock_min**
 per zeros.
 
-**6.50** Utilitzar la taula anterior per a traure el stock màxim, el mínim i
+**4.50** Utilitzar la taula anterior per a traure el stock màxim, el mínim i
 la mitjana de stocks. Observeu que si utilitzàrem la taula ARTICLE, els
 resultats no serien els mateixos (excepte el màxim), sobretot la mitjana, ja
 que els valors nuls no entrarien en els càlculs d'aquesta mitjana.

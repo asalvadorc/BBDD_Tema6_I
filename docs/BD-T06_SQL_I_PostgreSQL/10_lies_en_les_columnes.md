@@ -50,11 +50,11 @@ SELECT codi AS "Codi Institut", nom as "Nom", adreca AS "Adreça", numero AS
 
 ## ![](icon_activity.gif) Exercicis apartat 10
 
-**6.5** Traure el num_f, data i cod_ven de les factures amb les següents
+**4.5** Traure el num_f, data i cod_ven de les factures amb les següents
 capçaleres respectivament: **Número Factura** , **data** i **Codi Venedor**
 (anomeneu-lo **Ex_6_5**)
 
-**6.6** Donar àlias als camps que ho necessiten de la taula ARTICLE (anomeneu-
+**4.6** Donar àlias als camps que ho necessiten de la taula ARTICLE (anomeneu-
 lo **Ex_6_6**)
 
 

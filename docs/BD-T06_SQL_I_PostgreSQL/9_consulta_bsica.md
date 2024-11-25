@@ -89,15 +89,15 @@ FROM POBLACIONS;
 
 En la BD **factura** , connectant com a usuari **factura** :
 
-> **6.1** Traure tota la informació dels pobles (anomeneu-la **Ex_6_1.sql**).
+> **4.1** Traure tota la informació dels pobles (anomeneu-la **Ex_6_1.sql**).
 >
-> **6.2** Traure el codi postal, el nom i l'adreça, per aquest ordre, de tots
+> **4.2** Traure el codi postal, el nom i l'adreça, per aquest ordre, de tots
 > els venedors (anomeneu-la **Ex_6_2.sql**).
 
-> **6.3** Traure el codi d'article, la descripció, preu i preu incrementat en
+> **4.3** Traure el codi d'article, la descripció, preu i preu incrementat en
 > un 5%, de tots els articles.
 
-> **6.4** Traure la informació dels clients amb el següent format (ha d'anar
+> **4.4** Traure la informació dels clients amb el següent format (ha d'anar
 > tot en una columna):
 
 > > **Damborenea Corbato, Alicia. CALLE MADRID, 83 (12425)**

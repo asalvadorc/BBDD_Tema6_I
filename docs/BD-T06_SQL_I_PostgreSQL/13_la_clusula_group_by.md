@@ -106,23 +106,23 @@ SELECT cod_m, codpostal, COUNT(*)
 
 ## ![](icon_activity.gif) Exercicis apartat 13
 
-**6.21** Comptar el número de pobles de cada província (és suficient traure el
+**4.21** Comptar el número de pobles de cada província (és suficient traure el
 codi de la província i el número de pobles).
 
-**6.22** Comptar el nombre de clients en cada poble i codi postal.
+**4.22** Comptar el nombre de clients en cada poble i codi postal.
 
-**6.23** Comptar el número de factures de cada venedor a cada client.
+**4.23** Comptar el número de factures de cada venedor a cada client.
 
-**6.24** Comptar el número de factures de cada trimestre. Per a poder traure
+**4.24** Comptar el número de factures de cada trimestre. Per a poder traure
 el trimestre i agrupar per ell (ens val el número de trimestre, que va del 1
 al 4), podem utilitzar la funció **TO_CHAR(data,'Q')**.
 
-**6.25** Calcular quantes vegades s'ha venut un article, la suma d'unitats
+**4.25** Calcular quantes vegades s'ha venut un article, la suma d'unitats
 venudes, la quantitat màxima i la quantitat mínima.
 
-**6.26** Comptar el número d'articles de cada categoria i el preu mitjà.
+**4.26** Comptar el número d'articles de cada categoria i el preu mitjà.
 
-**6.27** Calcular el total de cada factura, sense aplicar descomptes ni IVA.
+**4.27** Calcular el total de cada factura, sense aplicar descomptes ni IVA.
 Només ens farà falta la taula **LINIES_FAC** , i consistirà en agrupar per
 cada **num_f** per a calcular la suma del **preu** multiplicat per la
 **quantitat**.

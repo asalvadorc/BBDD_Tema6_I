@@ -15,13 +15,13 @@ expressions, on poden entrar columnes, constants, paràmetres, funcions vàlides
 de PostgreSQL, ... unides per operadors aritmètics. Els operadors que es poden
 utilitzar per a fer les comparacions són:
 
-  * **< <= = >= > <> (!=)** (distint)
+  * **<  <=   =   >=   >  <>  (!=)** (distint)
 
   * **BETWEEN** _valor1_**AND** _valor2_ (els valors compresos entre valor1 i valor2)
 
   * **IN**(_llista_de_valors_) si el valor amb què es compara està en la llista de valors (entre parèntesis i valors separats per comes)
 
-  * També podem utilitzar **LIKE** en la condició. En els exemples 6, 7 i 8 es veu la seua utilització. L'operador LIKE s'utilitza junt amb els caràcters "**comodí** ": 
+  * També podem utilitzar **LIKE** en la condició. En els exemples 4, 7 i 8 es veu la seua utilització. L'operador LIKE s'utilitza junt amb els caràcters "**comodí** ": 
     * **%**(equival a 0 o més caràcters, els que siga)
     * **_** (1 i només un caràcter, això sí, el que siga).
 
@@ -122,29 +122,29 @@ WHERE numero IS NULL;
 
 ## ![](icon_activity.gif) Exercicis apartat 11
 
-**6.7** Traure els **clients** de la **ciutat** amb codi **12309**.
+**4.7** Traure els **clients** de la **ciutat** amb codi **12309**.
 
-**6.8** Traure totes les **factures** del mes de **març** de **2015**.
+**4.8** Traure totes les **factures** del mes de **març** de **2015**.
 
-**6.9** Traure tots els articles de la **categoria** **BjcOlimpia** amb un
+**4.9** Traure tots els articles de la **categoria** **BjcOlimpia** amb un
 **stock** entre**2** i **7** unitats.
 
-**6.10** Traure tots els **clients** que **no** tenen introduït el **codi
+**4.10** Traure tots els **clients** que **no** tenen introduït el **codi
 postal**.**  
 **
 
-**6.11** Traure tots els **articles** amb el **stock** introduït però que
+**4.11** Traure tots els **articles** amb el **stock** introduït però que
 **no** tenen introduït el **stock mínim**.
 
-**6.12** Traure tots els **clients** , el**primer cognom** dels quals és
+**4.12** Traure tots els **clients** , el**primer cognom** dels quals és
 **VILLALONGA**.
 
-**6.13.a** Modificar l'anterior per a traure tots els que són **VILLALONGA**
+**4.13.a** Modificar l'anterior per a traure tots els que són **VILLALONGA**
 de **primer** o de **segon** cognom.  
-**6.13.b** Modificar l'anterior per a traure tots els que **no** són
+**4.13.b** Modificar l'anterior per a traure tots els que **no** són
 **VILLALONGA** ni de primer ni de segon cognom.
 
-**6.14** Traure els **articles** "**Pulsador** " (la descripció conté aquesta
+**4.14** Traure els **articles** "**Pulsador** " (la descripció conté aquesta
 paraula), el **preu** dels quals oscila entre**2 i 4 €** i dels quals tenim un
 **stock** estrictament **major** que el **stock mínim**.**  
 **

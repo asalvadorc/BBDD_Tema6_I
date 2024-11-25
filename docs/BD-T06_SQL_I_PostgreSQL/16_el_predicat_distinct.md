@@ -63,22 +63,22 @@ SELECT DISTINCT nom_c , llengua
   ORDER BY 1
 ```
 
-## ![](icon_activity.gif) Exercicis apartat 16
+## ![](icon_activity.gif) Exercicis apartat 14
 
-**6.39** Traure els venedors que han venut alguna cosa el mes de gener de
+**4.39** Traure els venedors que han venut alguna cosa el mes de gener de
 2015.
 
-**6.40** Traure els diferents tipus d'IVA que s'han aplicat a les factures de
+**4.40** Traure els diferents tipus d'IVA que s'han aplicat a les factures de
 cada venedor, també durant el mes de gener de 2015
 
-**6.41** Traure els diferents caps de venedors (eviteu que aparega el valor
+**4.41** Traure els diferents caps de venedors (eviteu que aparega el valor
 nul)
 
-**6.42** Traure els diferents descomptes que s'han aplicat als articles, el
+**4.42** Traure els diferents descomptes que s'han aplicat als articles, el
 codi dels quals comença per **SAT**. Traure tant el codi d'article com el
 descompte.
 
-**6.43** Comptar en quantes poblacions tenim clients
+**4.43** Comptar en quantes poblacions tenim clients
 
 Llicenciat sota la  [Llicència Creative Commons Reconeixement NoComercial
 CompartirIgual 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
