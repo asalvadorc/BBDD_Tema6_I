@@ -69,7 +69,7 @@ tindrem 2 subtipus de llenguatges:
 **ALTER** | per a modificar-la  
 **DROP** | per a esborrar-la  
 
-* **DQL** (_Data Query Language_ o _Llenguatge de Consulta de Dades_):
+* **DQL** (_Data Query Language_ o _Llenguatge de Consulta de Dades_):és el subllenguatge responsable de llegir, o consultar, dades d'una base de dades.
 
 
 **SELECT** | per a consultar dades 
