@@ -60,7 +60,8 @@ Farem una distinció principal entre aquestes funcions, separant el que són les
 estructures de les taules i el contingut de les taules. En aquest sentit
 tindrem 2 subtipus de llenguatges:
 
-  * **DDL** (_Data Definition Language_ o _Llenguatge de Definició de Dades_): permet definir, modificar o esborrar les estructures, com poden ser taules, vistes, índex, ... i fins i tot Bases de Dades. Bàsicament les sentències són 3:   
+  * **DDL** (_Data Definition Language_ o _Llenguatge de Definició de Dades_): permet definir, modificar o esborrar les estructures, com poden ser taules, vistes, índex, ... i fins i tot Bases de Dades. 
+  Bàsicament les sentències són 3:   
 
 
   |    |    |     
@@ -69,7 +70,7 @@ tindrem 2 subtipus de llenguatges:
 **ALTER** | per a modificar-la  
 **DROP** | per a esborrar-la  
 
-* **DQL** (_Data Query Language_ o _Llenguatge de Consulta de Dades_):és el subllenguatge responsable de llegir, o consultar, dades d'una base de dades.
+* **DQL** (_Data Query Language_ o _Llenguatge de Consulta de Dades_): permet consultar dades d'una base de dades.
 
 
 **SELECT** | per a consultar dades 
