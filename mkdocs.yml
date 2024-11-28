@@ -14,7 +14,7 @@ nav:
     - 1. Introducció: BD_PostgreSQL_DQL/1_introducci.md
     - 2. DBeaver: BD_PostgreSQL_DQL/2_client_dbeaver_installaci_i_confiuraci.md
     - 3 Dades dels exemples i els exercicis: BD_PostgreSQL_DQL/3_dades_dels_exemples_i_els_exercicis.md
-    - 4. Operadors i Funcions:
+    - 4. Operadors i Funcions de Postgres:
       - 4.1. Operadors: BD_PostgreSQL_DQL/6_operadors.md
       - 4.2. Funcions: BD_PostgreSQL_DQL/7_funcions.md
     - DQL Consultes (part I):  
