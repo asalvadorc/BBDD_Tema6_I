@@ -63,16 +63,16 @@ SELECT nom , altura , altura * 0.5 FROM POBLACIONS;
 ```
 **<u>Exemples</u>**
 
-  1. Traure tota la informació de la taula POBLACIONS.
+  1) Traure tota la informació de la taula POBLACIONS.
 ```
 SELECT * FROM POBLACIONS;
 ```
-  2. Traure el nom i l'altura de totes les poblacions.
+  2) Traure el nom i l'altura de totes les poblacions.
 ```
 SELECT nom, altura  
 FROM POBLACIONS;
 ```
-  3. Traure el nom de les poblacions, el número d'habitants, i aquest número incrementat en un 5%.
+  3) Traure el nom de les poblacions, el número d'habitants, i aquest número incrementat en un 5%.
 ```
 SELECT nom, poblacio, poblacio * 1.05  
 FROM POBLACIONS;
@@ -80,7 +80,7 @@ FROM POBLACIONS;
 Observa com hem d'utilitzar el punt decimal i no la coma decimal, ja que la
 coma serveix per a separar els camps de la consulta SQL
 
-  4. Traure nom, latitud i els graus de la latitud de totes les poblacions. Per a traure els graus de la latitud traurem els caràcters de l'esquerra, fins el primer el caràcter º.
+  4) Traure nom, latitud i els graus de la latitud de totes les poblacions. Per a traure els graus de la latitud traurem els caràcters de l'esquerra, fins el primer el caràcter º.
 ```
 SELECT nom, latitud, SUBSTR(latitud,1,STRPOS(latitud,'º')-1)  
 FROM POBLACIONS;

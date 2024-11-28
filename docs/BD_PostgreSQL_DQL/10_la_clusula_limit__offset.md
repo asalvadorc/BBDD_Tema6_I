@@ -1,4 +1,4 @@
-# 9. La clàusula LIMIT .. OFFSET
+# 10. La clàusula LIMIT .. OFFSET
 
 Per mig de la clàusula **LIMIT - OFFSET** podrem fer que no apareguen totes
 les files que torna la sentència, sinó unes quantes.
