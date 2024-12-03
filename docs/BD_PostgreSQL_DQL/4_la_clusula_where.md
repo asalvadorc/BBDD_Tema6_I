@@ -16,18 +16,20 @@ expressions, on poden entrar columnes, constants, paràmetres, funcions vàlides
 de PostgreSQL, ... unides per operadors aritmètics. Els operadors que es poden
 utilitzar per a fer les comparacions són:
 
-  * **<  <=   =   >=   >  <>  (!=)** (distint)
+![](where.png)
+<!--
+  * **<  <=    =   >=   >  <>  (!=)** (distint)
 
   * **BETWEEN** _valor1_**AND** _valor2_ (els valors compresos entre valor1 i valor2)
 
-  * **IN**(_llista_de_valors_) si el valor amb què es compara està en la llista de valors (entre parèntesis i valors separats per comes)
+  * **IN** (_llista_de_valors_) si el valor amb què es compara està en la llista de valors (entre parèntesis i valors separats per comes)
 
   * També podem utilitzar **LIKE** en la condició. En els exemples 4, 7 i 8 es veu la seua utilització. L'operador LIKE s'utilitza junt amb els caràcters "**comodí** ": 
-    * **%**(equival a 0 o més caràcters, els que siga)
-    * **_** (1 i només un caràcter, això sí, el que siga).
+  * **%** (equival a 0 o més caràcters, els que siga)
+  * **_** (1 i només un caràcter, això sí, el que siga).
 
   * **IS [NOT]** és un operador especial per a comparar amb el valor nul (**NULL**).
-
+-->
 Recordem per una altra banda com s'escriuen les constants:
 
   * les constants **numèriques** van tal qual, sense cometes ni res (amb el **punt** decimal, i no coma decimal)
@@ -79,13 +81,13 @@ SELECT *
   FROM INSTITUTS  
   WHERE codpostal IN (12001,12002,12003);
 ```
-5) Traure els pobles de la comarca **Plana d'Utiel**) Tenim la dificultat de la cometa simple, que ens serveix sempre per a delimitar una constant alfanumèrica) La manera de solucionar-ho és posar-la dues vegades
+5) Traure els pobles de la comarca **Plana d'Utiel** (Tenim la dificultat de la cometa simple, que ens serveix sempre per a delimitar una constant alfanumèrica) La manera de solucionar-ho és posar-la dues vegades
 ```
 SELECT *  
   FROM POBLACIONS  
   WHERE nom_c = 'Plana d''Utiel';
 ```
-6) Traure nom i província dels pobles que comencen per **G** (el primer cognom))
+6) Traure nom i província dels pobles que comencen per **G** (el primer cognom)
 ```
 SELECT nom, nom_c  
   FROM POBLACIONS  
