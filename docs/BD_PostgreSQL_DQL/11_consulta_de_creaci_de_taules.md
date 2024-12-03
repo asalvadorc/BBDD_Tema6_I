@@ -29,12 +29,14 @@ En cas d'existir ja una taula amb el nom especificat ens avisarà d'aquest fet,
 donant-nos la possibilitat d'esborrar la taula anterior i crear la nova o
 cancelar.
 
-> **Nota**
->
+<u>**Nota**</u> 
+<div style="background-color: #d6eaf8; color: black; padding: 5px;">
 > És molt recomanable, com d'altres sentències de manipulació de dades que
 > veurem més endavant, executar primer la sentència sense el **INTO** , per a
 > no crear la taula encara. Quan estiguem segurs que el resultat és el que
 > desitgem, afegim el INTO, i la taula es crearà a més garanties.
+<p></p>
+</div>
 
 **<u>Exemples</u>**
 
@@ -62,12 +64,12 @@ DROP TABLE RESUM_COMARQUES
 
 ## ![](icon_activity.gif) Exercicis
 
-**49** Crear una taula anomenada **ARTICLE_999x** , on 999 han de ser les 3
+**Ex_49** Crear una taula anomenada **ARTICLE_999x** , on 999 han de ser les 3
 últimes xifres del DNI, i x la lletra del teu NIF, que siga una còpia de la
 taula ARTICLE, però substituint els valors nuls de **stock** i **stock_min**
 per zeros.
 
-**50** Utilitzar la taula anterior per a traure el stock màxim, el mínim i
+**Ex_50** Utilitzar la taula anterior per a traure el stock màxim, el mínim i
 la mitjana de stocks. Observeu que si utilitzàrem la taula ARTICLE, els
 resultats no serien els mateixos (excepte el màxim), sobretot la mitjana, ja
 que els valors nuls no entrarien en els càlculs d'aquesta mitjana.

@@ -122,29 +122,29 @@ WHERE numero IS NULL;
 
 ## ![](icon_activity.gif) Exercicis
 
-**7** Traure els **clients** de la **ciutat** amb codi **12309**.
+**Ex_7** Traure els **clients** de la **ciutat** amb codi **12309**.
 
-**8** Traure totes les **factures** del mes de **març** de **2015**.
+**Ex_8** Traure totes les **factures** del mes de **març** de **2015**.
 
-**9** Traure tots els articles de la **categoria** **BjcOlimpia** amb un
+**Ex_9** Traure tots els articles de la **categoria** **BjcOlimpia** amb un
 **stock** entre**2** i **7** unitats.
 
-**10** Traure tots els **clients** que **no** tenen introduït el **codi
+**Ex_10** Traure tots els **clients** que **no** tenen introduït el **codi
 postal**.**  
 **
 
-**11** Traure tots els **articles** amb el **stock** introduït però que
+**Ex_11** Traure tots els **articles** amb el **stock** introduït però que
 **no** tenen introduït el **stock mínim**.
 
-**12** Traure tots els **clients** , el**primer cognom** dels quals és
+**Ex_12** Traure tots els **clients** , el**primer cognom** dels quals és
 **VILLALONGA**.
 
-**13.a** Modificar l'anterior per a traure tots els que són **VILLALONGA**
+**Ex_13.a** Modificar l'anterior per a traure tots els que són **VILLALONGA**
 de **primer** o de **segon** cognom.  
-**13.b** Modificar l'anterior per a traure tots els que **no** són
+**Ex_13.b** Modificar l'anterior per a traure tots els que **no** són
 **VILLALONGA** ni de primer ni de segon cognom.
 
-**14** Traure els **articles** "**Pulsador** " (la descripció conté aquesta
+**Ex_14** Traure els **articles** "**Pulsador** " (la descripció conté aquesta
 paraula), el **preu** dels quals oscila entre**2 i 4 €** i dels quals tenim un
 **stock** estrictament **major** que el **stock mínim**.**  
 **

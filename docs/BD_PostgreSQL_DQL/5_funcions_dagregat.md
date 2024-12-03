@@ -68,23 +68,23 @@ FROM POBLACIONS
 
 ## ![](icon_activity.gif) Exercicis
 
-**15** Comptar el nombre de **clients** que tenen el **codi postal nul**.
+**Ex_15** Comptar el nombre de **clients** que tenen el **codi postal nul**.
 
-**16** Comptar el número de vegades que l'article **L74104** entra en les
+**Ex_16** Comptar el número de vegades que l'article **L74104** entra en les
 línies de factura, i el número total d'unitats venudes d'aquest article. Només
 us fa falta la taula LINIA_FAC.
 
-**17** Traure la **mitjana** del **stock** dels articles.
+**Ex_17** Traure la **mitjana** del **stock** dels articles.
 
-**18** Modificar l'anterior per a**tenir en compte els valors nuls, com si
+**Ex_18** Modificar l'anterior per a**tenir en compte els valors nuls, com si
 foren 0**. Us vindrà bé la funció **COALESCE** que converteix els nuls del
 primer paràmetre al valor donat com a segon paràmetre (si és diferent de nul,
 deixa igual el valor). Per tant l'heu d'utilitzar d'aquesta manera:
 **COALESCE(stock,0)**
 
-**19** Comptar **quantes factures** té el client **375**  
+**Ex_19** Comptar **quantes factures** té el client **375**  
 
-**20** Calcular el **descompte màxim** , el **mínim** i el descompte
+**Ex_20** Calcular el **descompte màxim** , el **mínim** i el descompte
 **mitjà** de les **factures**.
 
 

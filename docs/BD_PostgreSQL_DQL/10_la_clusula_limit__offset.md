@@ -19,11 +19,13 @@ data de naixement en ordre descendent, per a després traure els primenrs. Per
 tant és molt difícil veure una clàusula LIMIT si no tenim una clàusula ORDER
 BY.
 
-**Nota**
-
+<u>**Nota**</u> 
+<div style="background-color: #d6eaf8; color: black; padding: 5px;">
 En el SQL d'Access no existeix la clàusula LIMIT. Per a fer coses similar
 disposa del predicat **TOP** , que es posa immediatament després del SELECT,
 però sempre traurà les primeres, no té possibilitat d'OFFSET.
+<p></p>
+</div>
 
 **<u>Sintaxi</u>**
 ```
@@ -102,15 +104,15 @@ SELECT cod_m , COUNT(*)
 
 ## ![](icon_activity.gif) Exercicis
 
-**44** Traure tota la informació dels dos articles més cars.
+**Ex_44** Traure tota la informació dels dos articles més cars.
 
-**45** Traure el codi de les tres ciutats amb més clients
+**Ex_45** Traure el codi de les tres ciutats amb més clients
 
-**46** Traure el venedor que ha venut menys factures  
+**Ex_46** Traure el venedor que ha venut menys factures  
 
-**47** Traure les tres factures més cares (sense comptar els descomptes)
+**Ex_47** Traure les tres factures més cares (sense comptar els descomptes)
 
-**48** Modificar l'anterior per a traure totes les factures, excepte les 3
+**Ex_48** Modificar l'anterior per a traure totes les factures, excepte les 3
 més cares.
 
 

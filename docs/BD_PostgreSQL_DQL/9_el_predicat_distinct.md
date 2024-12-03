@@ -65,16 +65,16 @@ SELECT DISTINCT nom_c , llengua
 
 ## ![](icon_activity.gif) Exercicis
 
-**39** Traure els venedors que han venut alguna cosa el mes de gener de
+**Ex_39** Traure els venedors que han venut alguna cosa el mes de gener de
 2015.
 
-**40** Traure els diferents tipus d'IVA que s'han aplicat a les factures de
+**Ex_40** Traure els diferents tipus d'IVA que s'han aplicat a les factures de
 cada venedor, també durant el mes de gener de 2015
 
-**41** Traure els diferents caps de venedors (eviteu que aparega el valor
+**Ex_41** Traure els diferents caps de venedors (eviteu que aparega el valor
 nul)
 
-**42** Traure els diferents descomptes que s'han aplicat als articles, el
+**Ex_42** Traure els diferents descomptes que s'han aplicat als articles, el
 codi dels quals comença per **SAT**. Traure tant el codi d'article com el
 descompte.
 

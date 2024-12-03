@@ -29,12 +29,12 @@ d'una expressió.
 
 **<u>Exemples</u>**
 
-  1. Traure de les poblacions, el nom i el número d'habitants (camp poblacio), aquest últim el nom **habitants**.
+  1) Traure de les poblacions, el nom i el número d'habitants (camp poblacio), aquest últim el nom **habitants**.
 ```
 SELECT nom, poblacio AS habitants  
   FROM POBLACIONS;
 ```
-  2. Traure tots els camps de la taula INSTITUTS de forma elegant.
+  2) Traure tots els camps de la taula INSTITUTS de forma elegant.
 ```
 SELECT codi AS "Codi Institut", nom as Nom, adreca AS Adreça, numero AS
 Número, codpostal AS "Codi Postal", cod_m AS "Codi Municipi"  
@@ -50,12 +50,11 @@ SELECT codi AS "Codi Institut", nom as "Nom", adreca AS "Adreça", numero AS
 
 ## ![](icon_activity.gif) Exercicis
 
-**5** Traure el num_f, data i cod_ven de les factures amb les següents
+**Ex_5** Traure el num_f, data i cod_ven de les factures amb les següents
 capçaleres respectivament: **Número Factura** , **data** i **Codi Venedor**
-(anomeneu-lo **Ex_6_5**)
 
-**6** Donar àlias als camps que ho necessiten de la taula ARTICLE (anomeneu-
-lo **Ex_6_6**)
+
+**Ex_6** Donar àlias als camps que ho necessiten de la taula ARTICLE.
 
 
 Llicenciat sota la  [Llicència Creative Commons Reconeixement NoComercial

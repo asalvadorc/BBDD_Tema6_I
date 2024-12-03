@@ -26,8 +26,8 @@ FROM <clàusula>
 Com veieu, les úniques clàusules obligatòries són les **columnes** que volem
 que isquen com a resultat i la del **FROM**(on es diu d'on venen les dades).
 
-**Nota**
-
+<u>**Nota**</u> 
+<div style="background-color: #d6eaf8; color: black; padding: 5px;">
 En PostgreSQL no es distingeix entre majúscules i minúscules. Millor dit,
 PostgreSQL passa de majúscules a minúscules tots els noms de taula o de camp o
 del que siga, excepte si van entre cometes dobles, que aleshores es respecten
@@ -37,7 +37,8 @@ noms de taula en majúscules, i els noms de camp en minúscules. També posaré 
 majúscules les clàusules de sentències SQL (SELECT , FROM , WHERE , ...). Però
 recordeu que és per a una millor lectura. Podria anar tot en minúscules
 perfectament.
-
+<p></p>
+</div>
 
 
 Llicenciat sota la  [Llicència Creative Commons Reconeixement NoComercial

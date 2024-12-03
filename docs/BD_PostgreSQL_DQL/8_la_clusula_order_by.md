@@ -102,22 +102,22 @@ SELECT nom_c, COUNT(*), SUM(poblacio)
 
 ## ![](icon_activity.gif) Exercicis
 
-**34** Traure tots els clients ordenats per codi de població, i dins
+**Ex_34** Traure tots els clients ordenats per codi de població, i dins
 d'aquestos per codi postal.
 
-**35** Traure tots els articles ordenats per la categoria, dins d'aquest pel
+**Ex_35** Traure tots els articles ordenats per la categoria, dins d'aquest pel
 stock, i dins d'aquest per preu (de forma descendent)
 
-**36** Traure els resultats de la consulta **33** ordenats pel total de la
+**Ex_36** Traure els resultats de la consulta **Ex_33** ordenats pel total de la
 factura quan ja s'ha aplicat el descompte, de forma descendent.
 
-**37** Traure tots els articles ordenats per la diferència entre el stock i
+**Ex_37** Traure tots els articles ordenats per la diferència entre el stock i
 el stock mínim de forma descendent. Com que en moltes ocasions el stock o el
 stock mínim és nul, hem de considerar en aquestos casos com 0. Per tant hem de
 tornar a utilitzar la funció **COALESCE(stock,0)** (i també per al stock
 mínim).
 
-**38** Traure els codis de venedor amb el número de factures venudes en el
+**Ex_38** Traure els codis de venedor amb el número de factures venudes en el
 segon semestre de 2015, ordenades per aquest número de forma descendent
 
 Llicenciat sota la  [Llicència Creative Commons Reconeixement NoComercial
