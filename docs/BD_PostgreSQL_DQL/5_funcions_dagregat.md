@@ -41,29 +41,29 @@ _**count**_
   1) Comptar el nombre total de pobles.
 ```
 SELECT Count(*)  
-FROM POBLACIONS;
+  FROM POBLACIONS;
 ```
   2) Comptar el nombre de poblacions de la **Plana Alta**.
 ```
 SELECT Count(*)  
-FROM POBLACIONS  
-WHERE nom_c = 'Plana Alta';
+  FROM POBLACIONS  
+  WHERE nom_c = 'Plana Alta';
 ```
   3) Calcular la mitjana d'habitants dels pobles de la **Plana Alta** i **Plana Baixa**.
 ```
 SELECT AVG(poblacio)  
-FROM POBLACIONS  
-WHERE nom_c = 'Plana Alta' OR nom_c = 'Plana Baixa'
+  FROM POBLACIONS  
+  WHERE nom_c = 'Plana Alta' OR nom_c = 'Plana Baixa'
 ```
   4) Calcular la mitjana de densitat de les poblacions. La densitat es calcula com el número d'habitants dividit per l'extensió.
 ```
 SELECT AVG(poblacio/extensio)  
-FROM POBLACIONS;
+  FROM POBLACIONS;
 ```
   5) Calcular l'altura màxima i mínima de tots els pobles.
 ```
 SELECT MAX(altura), MIN(altura)  
-FROM POBLACIONS
+  FROM POBLACIONS
 ```
 
 ## ![](icon_activity.gif) Exercicis

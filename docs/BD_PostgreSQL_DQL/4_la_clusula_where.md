@@ -4,10 +4,11 @@ Ens servirà per establir filtres. Només eixiran les files que satisfacen la
 condició del filtre.
 
 **<u>Sintaxi</u>**
+
 ```
 SELECT <columnes>  
-FROM <taules>  
-WHERE <condició> ;
+  FROM <taules>  
+  WHERE <condició>;
 ```
 La condició podrà ser una o més d'una, unides en aquest cas pels operadors
 lògics **AND** , **OR** i **NOT**. Cada condició serà una comparació entre
@@ -42,59 +43,59 @@ Recordem per una altra banda com s'escriuen les constants:
 1) Traure les comarques de la província de Castelló
 ```
 SELECT *  
-FROM COMARQUES  
-WHERE provincia = 'Castelló';
+  FROM COMARQUES  
+  WHERE provincia = 'Castelló';
 ```
 2) Traure totes les poblacions que tenen de llengua el valencià.
 ```
 SELECT *  
-FROM POBLACIONS  
-WHERE llengua = 'V';
+  FROM POBLACIONS  
+  WHERE llengua = 'V';
 ```
 3) Traure les poblacions de la comarca de la Plana Alta de més de 300 metres d'altura
 ```
 SELECT *  
-FROM POBLACIONS  
-WHERE nom_c = 'Plana Alta' AND altura > 300;
+  FROM POBLACIONS  
+  WHERE nom_c = 'Plana Alta' AND altura > 300;
 ```
 4) Traure els instituts dels codis postals 12001, 12002 o 12003)
 ```
 SELECT *  
-FROM INSTITUTS  
-WHERE codpostal=12001 OR codpostal=12002 OR codpostal=12003;
+  FROM INSTITUTS  
+  WHERE codpostal=12001 OR codpostal=12002 OR codpostal=12003;
 ```
 ```
 SELECT *  
-FROM INSTITUTS  
-WHERE codpostal >= 12001 AND codpostal <= 12003;
+  FROM INSTITUTS  
+  WHERE codpostal >= 12001 AND codpostal <= 12003;
 ```
 ```
 SELECT *  
-FROM INSTITUTS  
-WHERE codpostal BETWEEN 12001 AND 12003;
+  FROM INSTITUTS  
+  WHERE codpostal BETWEEN 12001 AND 12003;
 ```
 ```
 SELECT *  
-FROM INSTITUTS  
-WHERE codpostal IN (12001,12002,12003);
+  FROM INSTITUTS  
+  WHERE codpostal IN (12001,12002,12003);
 ```
 5) Traure els pobles de la comarca **Plana d'Utiel**) Tenim la dificultat de la cometa simple, que ens serveix sempre per a delimitar una constant alfanumèrica) La manera de solucionar-ho és posar-la dues vegades
 ```
 SELECT *  
-FROM POBLACIONS  
-WHERE nom_c = 'Plana d''Utiel';
+  FROM POBLACIONS  
+  WHERE nom_c = 'Plana d''Utiel';
 ```
 6) Traure nom i província dels pobles que comencen per **G** (el primer cognom))
 ```
 SELECT nom, nom_c  
-FROM POBLACIONS  
-WHERE nom LIKE 'G%';
+  FROM POBLACIONS  
+  WHERE nom LIKE 'G%';
 ```
 7) Traure les poblacions que estan a 40º 1' (i els segons que siguen) de latitud nord
 ```
 SELECT *  
-FROM POBLACIONS  
-WHERE latitud LIKE '40º01____N';
+  FROM POBLACIONS  
+  WHERE latitud LIKE '40º01____N';
 ```
 Hem posat els 40º i 1 minut. A continuació hem posat exactament 4 caràcters,
 els que siga. Hem posat 4, que serien la cometa que assenyala els minuts, les
@@ -104,20 +105,20 @@ constant alfanumèrica. Si volem posar-la, en la constant l'haurem de doblar
 (l'haurem de posar 2 vegades seguides)
 ```
 SELECT *  
-FROM POBLACIONS  
-WHERE latitud LIKE '40º01''__"N';
+  FROM POBLACIONS  
+  WHERE latitud LIKE '40º01''__"N';
 ```
 8) Traure totes les poblacions, el nom de les quals només consta d'una paraula (no tindran espais en blanc).
 ```
 SELECT *  
-FROM POBLACIONS  
-WHERE nom NOT LIKE '% %';
+  FROM POBLACIONS  
+  WHERE nom NOT LIKE '% %';
 ```
 9) Traure els instituts que no tenen introduït el numero del carrer.
 ```
 SELECT *  
-FROM INSTITUTS  
-WHERE numero IS NULL;
+  FROM INSTITUTS  
+  WHERE numero IS NULL;
 ```
 
 ## ![](icon_activity.gif) Exercicis
