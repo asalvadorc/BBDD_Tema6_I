@@ -22,10 +22,10 @@ BY.
 <u>**Nota**</u> 
 <div style="background-color: #d6eaf8; color: black; padding: 5px;">
 En el SQL d'Access no existeix la clàusula LIMIT. Per a fer coses similar
-disposa del predicat **TOP** , que es posa immediatament després del SELECT,
+disposa del predicat <b>TOP</b> , que es posa immediatament després del SELECT,
 però sempre traurà les primeres, no té possibilitat d'OFFSET.
-<p></p>
 </div>
+<br>
 
 **<u>Sintaxi</u>**
 ```

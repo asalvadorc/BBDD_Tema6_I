@@ -30,12 +30,12 @@ nav:
       - 10. La clàusula LIMIT .. OFFSET: BD_PostgreSQL_DQL/10_la_clusula_limit__offset.md  
       - 11. Consulta de creació de taules: BD_PostgreSQL_DQL/11_consulta_de_creaci_de_taules.md
       - 12. Ordre amb que s'executa una sentència SQL: BD_PostgreSQL_DQL/12_ordre_amb_qu_sexecuta_una_sentncia_sql.md
-      - Exercicis de tot el tema, amb els resultats: BD_PostgreSQL_DQL/exercicis_de_tot_el_tema_amb_els_resultats.md    
+      - Exercicis amb els resultats (part I): BD_PostgreSQL_DQL/exercicis_de_tot_el_tema_amb_els_resultats.md    
   #  - DQL Consulta avançades (part II):
-  #    - 1. Introducció: BD_PostgreSQL_DQL_A/21_introducci.md
-  #    - 2. Combinacions de taules: BD_PostgreSQL_DQL_A/22_combinacions_de_taules.md
-  #    - 3. Subconsultes: BD_PostgreSQL_DQL_A/23_subconsultes.md
-  #    - 4. Consultes d'operacions de conjunts: BD_PostgreSQL_DQL_A/24_consultes_doperacions_de_conjunts.md  
-  #    - Exercicis de tot el tema, amb els resultats: BD_PostgreSQL_DQL_A/exercicis_de_tot_el_tema_amb_els_resultats.md
+  #    - 1. Introducció: BD_PostgreSQL_DQL_Avancat/21_introducci.md
+  #    - 2. Combinacions de taules: BD_PostgreSQL_DQL_Avancat/22_combinacions_de_taules.md
+  #    - 3. Subconsultes: BD_PostgreSQL_DQL_Avancat/23_subconsultes.md
+  #    - 4. Consultes d'operacions de conjunts: BD_PostgreSQL_DQL_Avancat/24_consultes_doperacions_de_conjunts.md  
+  #    - Exercicis amb els resultats (part II): BD_PostgreSQL_DQL_Avancat/exercicis_de_tot_el_tema_amb_els_resultats.md
 
         

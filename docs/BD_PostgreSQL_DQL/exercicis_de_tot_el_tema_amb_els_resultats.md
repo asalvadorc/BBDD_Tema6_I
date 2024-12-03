@@ -1,4 +1,4 @@
-# Exercicis de tot el tema, amb els resultats
+# Exercicis amb els resultats (part I)
 
 En la BD **factura** , connectant com a usuari **factura_alu** :
 
