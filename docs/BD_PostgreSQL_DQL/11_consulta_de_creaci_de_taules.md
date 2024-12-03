@@ -1,5 +1,5 @@
 
-# 10\. Consulta de creació de taules
+# 11\. Consulta de creació de taules
 
 A banda de poder consultar informació de una o més d'una taula, la sentència
 SELECT pot servir per a crear una nova taula, amb estructura i dades (les que
@@ -29,18 +29,18 @@ En cas d'existir ja una taula amb el nom especificat ens avisarà d'aquest fet,
 donant-nos la possibilitat d'esborrar la taula anterior i crear la nova o
 cancelar.
 
-<u>**Nota**</u> 
+<u>**Nota**</u>
+<p>
 <div style="background-color: #d6eaf8; color: black; padding: 5px;">
-> És molt recomanable, com d'altres sentències de manipulació de dades que
-> veurem més endavant, executar primer la sentència sense el **INTO** , per a
-> no crear la taula encara. Quan estiguem segurs que el resultat és el que
-> desitgem, afegim el INTO, i la taula es crearà a més garanties.
-<p></p>
-</div>
+  És molt recomanable, com d'altres sentències de manipulació de dades que
+  veurem més endavant, executar primer la sentència sense el <b>INTO</b> , per a
+  no crear la taula encara. Quan estiguem segurs que el resultat és el que
+  desitgem, afegim el INTO, i la taula es crearà a més garanties.
+</div></p>
 
 **<u>Exemples</u>**
 
-  1) Crear una còpia de la taula comarques anomenada **COMARQUES_COPIA******.
+  1) Crear una còpia de la taula comarques anomenada **COMARQUES_COPIA**.
 ```
 SELECT * INTO COMARQUES_COPIA  
   FROM COMARQUES

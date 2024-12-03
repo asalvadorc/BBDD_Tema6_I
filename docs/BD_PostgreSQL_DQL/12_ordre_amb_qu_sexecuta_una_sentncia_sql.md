@@ -1,4 +1,4 @@
-# 11\. Ordre amb què s'executa una sentència SQL
+# 12\. Ordre amb què s'executa una sentència SQL
 
 Com hem vist, i com veurem en la Part II d'aquest tema, la sentència
 **SELECT** és molt completa i molt potent. Pot fer moltes coses.
@@ -19,7 +19,7 @@ següent:
   * Si tenim clàusula**INTO** es procedirà a crear una taula nova amb el resultat anterior.
 
 Tenir clar aquest ordre ens pot clarificar alguna cosa, i poder evitar alguns
-errors. L'error de la següent sentència ja s'havia explicat en la pregunta 13.
+errors. L'error de la següent sentència ja s'havia explicat en l'apartat de la clàusula GROUP BY.
 ```
 SELECT nom_c, COUNT(*), cod_m  
   FROM POBLACIONS  
@@ -45,8 +45,7 @@ SELECT nom_c, COUNT(*), cod_m
 > que pot tenir sentit. O si no era això el que preteníem, senzillament llevem
 > el camp cod_m de la sentència, i ens funcionarà bé.
 
-Un altre exemple il·lustratiu (que ja el vam posar molt paregut en la pregunta
-13) pot ser el següent: podríem intentar traure l'altura màxima de tots els
+Un altre exemple il·lustratiu (que ja el vam posar molt paregut en l'apartat de la clàusula GROUP BY) pot ser el següent: podríem intentar traure l'altura màxima de tots els
 pobles, i la població que té aquesta altura. Podríem estar temptats de fer-lo
 d'aquesta manera:
 ```
