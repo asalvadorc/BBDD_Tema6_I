@@ -1,4 +1,4 @@
-# 4.1\. Funcions
+# 4.2 Funcions
 
 Com veurem un poc més avant, en les sentències SQL, a banda de columnes i
 valors constants, podrem utilitzar funcions.

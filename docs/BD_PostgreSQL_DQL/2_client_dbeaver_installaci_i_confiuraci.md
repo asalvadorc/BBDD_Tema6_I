@@ -76,8 +76,8 @@ connexió:
 
   * Servidor (**Host**): **89.36.214.106**
   * Base de Dades (**Database**): **factura**
-  * Usuari (**Username**): **factura**
-  * Contrasenya (**Password**): **factura**
+  * Usuari (**Username**): **factura_alu**
+  * Contrasenya (**Password**): **factura_alu**
 
 Aquestes són les pantalles on faríem la connexió:
 

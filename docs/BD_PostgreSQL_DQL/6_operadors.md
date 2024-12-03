@@ -1,4 +1,4 @@
-# 4\. Operadors
+# 4.1 Operadors
 
 Els operadors que es gasten en el SQL de PostgreSQL són moltíssims. Cada tipus
 de dades té una sèrie d'operadors, i el mateix operador, aplicat a tipus
