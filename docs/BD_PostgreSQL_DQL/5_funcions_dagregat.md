@@ -70,7 +70,7 @@ SELECT MAX(altura), MIN(altura)
 
 **Ex_15** Comptar el nombre de **clients** que tenen el **codi postal nul**.
 
-**Ex_16** Comptar el número de vegades que l'article **L74104** entra en les
+**Ex_16** Comptar el número de vegades que l'article **L76104** entra en les
 línies de factura, i el número total d'unitats venudes d'aquest article. Només
 us fa falta la taula LINIA_FAC.
 
