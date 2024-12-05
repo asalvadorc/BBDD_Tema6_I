@@ -1,6 +1,6 @@
 # 5\. Funcions d'agregat
 
-Les **funcions d'agrega** t, o funcions de domini agregat, són aquelles que
+Les **funcions d'agregat**, o funcions de domini agregat, són aquelles que
 trauen un resultat a partir dels valors d'un determinat camp en un conjunt de
 files. Així tindrem una funció per a **sumar** els valors d'una columna, o
 **comptar** -los, o traure la **mitjana** , o el **màxim** , ...

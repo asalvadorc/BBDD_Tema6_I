@@ -1,5 +1,6 @@
 # 1\. Introducció
 
+
 **SQL** és un llenguatge per a organitzar, gestionar i recuperar dades
 emmagatzemades en una Base de Dades. El nom "**SQL**" és una abreviatura de
 _**Structured Query Language**_ (Llenguatge Estructurat de Consultes), i com

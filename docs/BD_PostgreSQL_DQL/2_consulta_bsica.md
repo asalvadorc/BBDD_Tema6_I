@@ -32,7 +32,7 @@ En **<columnes>** podrem posar (separades per **comes**):
 
   * **Taula.*** : indica totes les columnes de la taula.
 
-  * **Funcions** (veure pregunta 6)
+  * **Funcions** (veure apartat  _Operadors i Funcions de Postgres_)
 
   * **Constants** : son valors que posem directament. Els tipus de constants són:
 
