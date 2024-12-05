@@ -21,7 +21,7 @@ Entitat-Relació i Model Relacional.
 
 ![](factura.png)
 
-Recordeu que en el punt 3 havíem fet les connexions a cadascuna de les 2 Bases
+Recordeu que en el apartat _Dbeaver_ havíem fet les connexions a cadascuna de les 2 Bases
 de Dades anteriors.
 
 

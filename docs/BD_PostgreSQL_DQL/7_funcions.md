@@ -11,7 +11,7 @@ multitud de funcions que existeixen. Les agruparem per categories.
 Evidentment aquest recull no és per aprendre'l de memòria, sinó que servirà de
 consulta.
 
-Funcions numèriques
+**<u>Funcions numèriques</u>**
 
 Funció  |  Explicació  |  Funció  |  Explicació   
 ---|---|---|---  

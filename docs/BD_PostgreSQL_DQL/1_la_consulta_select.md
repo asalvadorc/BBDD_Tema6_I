@@ -23,8 +23,7 @@ FROM <clàusula>
 [ ORDER BY <clàusula> ]  
 [ LIMIT num1 OFFSET num2 ]
 ```
-Com veieu, les úniques clàusules obligatòries són les **columnes** que volem
-que isquen com a resultat i la del **FROM**(on es diu d'on venen les dades).
+Com veieu, les úniques clàusules obligatòries són la del **SELECT** (on es diu les columnes que volem que isquen com a resultat) i la del **FROM** (on es diu d'on venen les dades).
 
 <u>**Nota**</u> 
 <div style="background-color: #d6eaf8; color: black; padding: 5px;">

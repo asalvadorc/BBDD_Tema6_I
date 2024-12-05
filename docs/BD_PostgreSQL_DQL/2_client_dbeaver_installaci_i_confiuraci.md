@@ -83,7 +83,7 @@ Aquestes són les pantalles on faríem la connexió:
 
 ![](T6_1_3_2.png) | ![](T6_1_3_4.png)  
 ---|---  
-  
+<!-->  
 **<u>Exemple de connexió a Access: Empresa.accdb</u>**
 
 Únicament a mode il·lustratiu anem a mostrar una altra connexió diferent a les
@@ -98,7 +98,7 @@ Ací presentem les pantalles per a fer la connexió:
 
 ![](T6_1_1_4.png) | ![](T6_1_1_5.png)  
 ---|---  
-  
+-->  
 ## DBeaver: utilització
 
 Una vegada feta la connexió, **DBeaver** ens permetrà navegar per les taules i
