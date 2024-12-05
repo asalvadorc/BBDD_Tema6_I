@@ -31,7 +31,7 @@ nav:
       - 11. Consulta de creació de taules: BD_PostgreSQL_DQL/11_consulta_de_creaci_de_taules.md
       - 12. Ordre amb que s'executa una sentència SQL: BD_PostgreSQL_DQL/12_ordre_amb_qu_sexecuta_una_sentncia_sql.md
       - Exercicis amb els resultats (part I): BD_PostgreSQL_DQL/exercicis_de_tot_el_tema_amb_els_resultats.md    
-    - DQL Consulta avançades (part II):
+    - DQL Consultes avançades (part II):
       - 1. Introducció: BD_PostgreSQL_DQL_Avancat/21_introducci.md
       - 2. Combinacions de taules: BD_PostgreSQL_DQL_Avancat/22_combinacions_de_taules.md
       - 3. Subconsultes: BD_PostgreSQL_DQL_Avancat/23_subconsultes.md
