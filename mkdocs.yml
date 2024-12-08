@@ -7,6 +7,13 @@ theme:
 extra_css:
   - css/extra.css
   - img/favicon.ico 
+
+markdown_extensions:
+  - admonition
+  - tables    
+  - attr_list
+  - toc 
+  
 nav:
   
   - SQL - POSTGRES:

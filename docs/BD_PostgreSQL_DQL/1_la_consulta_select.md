@@ -25,19 +25,17 @@ FROM <clàusula>
 ```
 Com veieu, les úniques clàusules obligatòries són la del **SELECT** (on es diu les columnes que volem que isquen com a resultat) i la del **FROM** (on es diu d'on venen les dades).
 
-<u>**Nota**</u> 
-<div style="background-color: #d6eaf8; color: black; padding: 5px;">
-En PostgreSQL no es distingeix entre majúscules i minúscules. Millor dit,
-PostgreSQL passa de majúscules a minúscules tots els noms de taula o de camp o
-del que siga, excepte si van entre cometes dobles, que aleshores es respecten
-mayúscules i minúscules. Com a qüestió d'estil, jo no pose mai entre cometes els
-noms de taules i camps. I per a una millor lectura, intentaré posar sempre els
-noms de taula en majúscules, i els noms de camp en minúscules. També posaré en
-majúscules les clàusules de sentències SQL (SELECT , FROM , WHERE , ...). Però
-recordeu que és per a una millor lectura. Podria anar tot en minúscules
-perfectament.
-<p></p>
-</div>
+!!! note "Nota"
+    En PostgreSQL no es distingeix entre majúscules i minúscules. Millor dit,
+    PostgreSQL passa de majúscules a minúscules tots els noms de taula o de camp o
+    del que siga, excepte si van entre cometes dobles, que aleshores es respecten
+    mayúscules i minúscules. Com a qüestió d'estil, jo no pose mai entre cometes els
+    noms de taules i camps. I per a una millor lectura, intentaré posar sempre els
+    noms de taula en majúscules, i els noms de camp en minúscules. També posaré en
+    majúscules les clàusules de sentències SQL (SELECT , FROM , WHERE , ...). Però
+    recordeu que és per a una millor lectura. Podria anar tot en minúscules
+    perfectament.
+
 
 
 Llicenciat sota la  [Llicència Creative Commons Reconeixement NoComercial

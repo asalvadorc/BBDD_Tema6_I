@@ -29,15 +29,12 @@ Els tipus de dades dels camps seran els heretats de la consulta SELECT.
 En cas d'existir ja una taula amb el nom especificat ens avisarà d'aquest fet,
 donant-nos la possibilitat d'esborrar la taula anterior i crear la nova o
 cancelar.
+!!! note "Nota"
+    És molt recomanable, com d'altres sentències de manipulació de dades que
+    veurem més endavant, executar primer la sentència sense el <b>INTO</b> , per a
+    no crear la taula encara. Quan estiguem segurs que el resultat és el que
+    desitgem, afegim el INTO, i la taula es crearà a més garanties.
 
-<u>**Nota**</u>
-<div style="background-color: #d6eaf8; color: black; padding: 5px;">
-  És molt recomanable, com d'altres sentències de manipulació de dades que
-  veurem més endavant, executar primer la sentència sense el <b>INTO</b> , per a
-  no crear la taula encara. Quan estiguem segurs que el resultat és el que
-  desitgem, afegim el INTO, i la taula es crearà a més garanties.
-</div>
-<br>
 
 **<u>Exemples</u>**
 

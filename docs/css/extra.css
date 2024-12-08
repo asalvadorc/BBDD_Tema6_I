@@ -10,3 +10,20 @@ p {
     margin: 0 auto; /* Centra el contenedor en la página */
 }
 
+.rojo {
+    color: red !important;
+}
+
+.azul {
+    color: blue !important;
+}
+
+.verde {
+    color: green !important;
+} 
+
+code, pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+

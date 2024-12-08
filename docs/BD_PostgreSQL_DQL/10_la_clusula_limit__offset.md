@@ -19,13 +19,11 @@ data de naixement en ordre descendent, per a després traure els primenrs. Per
 tant és molt difícil veure una clàusula LIMIT si no tenim una clàusula ORDER
 BY.
 
-<u>**Nota**</u> 
-<div style="background-color: #d6eaf8; color: black; padding: 5px;">
-En el SQL d'Access no existeix la clàusula LIMIT. Per a fer coses similar
-disposa del predicat <b>TOP</b> , que es posa immediatament després del SELECT,
-però sempre traurà les primeres, no té possibilitat d'OFFSET.
-</div>
-<br>
+!!! note "Nota"
+    En el SQL d'Access no existeix la clàusula LIMIT. Per a fer coses similar
+    disposa del predicat <b>TOP</b> , que es posa immediatament després del SELECT,
+    però sempre traurà les primeres, no té possibilitat d'OFFSET.
+
 
 **<u>Sintaxi</u>**
 ```

@@ -111,9 +111,9 @@ Els operadors de la condició poden ser de 3 tipus:
 ```
   SELECT *  
     FROM POBLACIONS  
-WHERE altura = ANY (SELECT MAX(altura)  
-                    FROM POBLACIONS
-                    GROUP BY nom_c)
+    WHERE altura = ANY (SELECT MAX(altura)  
+                        FROM POBLACIONS
+                        GROUP BY nom_c)
 ```
 > Aquesta consulta no funcionarà bé del tot, ja que seleccionarà totes les
 > poblacions que coincideixen amb alguna de les altures màximes, siguen de la

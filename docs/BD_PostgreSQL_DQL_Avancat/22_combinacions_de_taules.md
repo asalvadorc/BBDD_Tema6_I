@@ -28,17 +28,15 @@ Per exemple podem fer la següent sentència:
 ```
 
 
-> <u>**Nota**</u>
-<div style="background-color: #d6eaf8; color: black; padding: 5px;">
-Observeu que hem posat el nom de la taula davant del camp <b>nom_c</b> , perquè
-les dues taules tenen un camp amb aquest nom. Aquesta operació s'anomena
-<b>qualificació</b>. Si no qualificàrem amb el nom de la taula davant, hi
-hauria ambigüitat, no sabria a quin camp es refereix, si el d'una taula o el
-de l'altra. Quan els noms dels camps són diferents i per tant no
-coincideixen en les dues taules, no cal qualificar el camp (com per exemple
-amb el camp <b>nom</b>)
-</div>
-<br>
+!!! note "Nota"
+    Observeu que hem posat el nom de la taula davant del camp <b>nom_c</b> , perquè
+    les dues taules tenen un camp amb aquest nom. Aquesta operació s'anomena
+    <b>qualificació</b>. Si no qualificàrem amb el nom de la taula davant, hi
+    hauria ambigüitat, no sabria a quin camp es refereix, si el d'una taula o el
+    de l'altra. Quan els noms dels camps són diferents i per tant no
+    coincideixen en les dues taules, no cal qualificar el camp (com per exemple
+    amb el camp <b>nom</b>)
+
 
 Si executem la sentència, veurem que tindrem un nombre de files inesperadament
 alt, **18.428 files !!!** I si analitzem les files veurem el perquè: s'ha
@@ -58,7 +56,8 @@ molt més combinar _cada comarca amb les seues poblacions_.
 
 ## 2.2.2 Combinació interna
 
-<u>Combinació de dues taules: Sintaxi</u>
+
+**Combinació de dues taules: Sintaxi**{.azul}
 
 Normalment el producte cartesià no ens interessarà. Més bé voldrem combinar
 les taules de manera que dos camps, un camp de cada taula, coincidesquen. I el
@@ -248,7 +247,7 @@ _**n-1**_ condicions de combinació unides per AND. Per exemple, si en una
 consulta entren 5 taules, per a no tenir cap producte cartesià ens faran falta
 4 condicions unides per AND.
 
-<u>Una taula més d'una vegada.</u>
+**Una taula més d'una vegada**{.azul}
 
 Anem a plantejar un altre exemple interessant: traure el nom de les
 poblacions, amb el nom de la capital de comarca. Lamentablement amb les dades
@@ -300,14 +299,11 @@ o de la forma alternativa:
     FROM POBLACIONS P1, POBLACIONS P2  
     WHERE P1.cod_capital=P2.cod_m
 ```
-<u>**Nota**</u>
-<div style="background-color: #d6eaf8; color: black; padding: 5px;">
-Recordeu que aquestes instruccions no les podem provar, perquè no tenim el
-camp <b>cod_capital</b>.
-</div>
-<br>
+!!! note "Nota"
+    Recordeu que aquestes instruccions no les podem provar, perquè no tenim el
+    camp <b>cod_capital</b>.
 
-<u>Clau externa formada per més d'un camp</u>
+**Clau externa formada per més d'un camp**{.azul}
 
 Per últim anem a considerar el cas que la clau externa estiga formada per més
 d'un camp. Ho basarem en l'exemple dels **Bancs** , on la taula COMPTE CORRENT
@@ -477,13 +473,11 @@ LEFT JOIN.
 **Ex_61** Traure el codi, descripció i total d'unitats venudes de tots
 els articles, fins i tot d'aquells que no s'ha venut res.
 
-<u>**Nota**</u>
-<div style="background-color: #d6eaf8; color: black; padding: 5px;">
-Per a deixar-lo més bonic, com que la suma de valors nuls no és 0 sinó nul,
-per a que ens aparegue el valor 0 podem utilitzar la funció COALESCE(_valor_
-,0), que si el valor és nul torna un 0.
-</div>
-<br>
+!!! note "Nota"
+    Per a deixar-lo més bonic, com que la suma de valors nuls no és 0 sinó nul,
+    per a que ens aparegue el valor 0 podem utilitzar la funció COALESCE(_valor_
+    ,0), que si el valor és nul torna un 0.
+
 
 **Ex_62** Traure el nom de tots els pobles i el número de clients en
 cas de que en tinguen. Ordena per número de clients de forma descendent.

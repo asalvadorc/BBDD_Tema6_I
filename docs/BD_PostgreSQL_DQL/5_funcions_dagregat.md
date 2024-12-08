@@ -31,10 +31,10 @@ Per exemple, si volem saber el nombre d'Instituts:
 SELECT COUNT(*) AS "Nombre d'Instituts"  
    FROM INSTITUTS;
 ```
-**Nota**
 
-És interessant la utilització d'àlias, per a que no apareguen capçaleres com
-_**count**_
+!!! note "Nota"
+      És interessant la utilització d'àlias, per a que no apareguen capçaleres com _**count**_
+  
 
 **<u>Exemples</u>**
 
