@@ -260,7 +260,7 @@ SELECT. La reunió l'hem feta en aquesta ocasió amb el USING.
     FROM COMARQUES INNER JOIN POBLACIONS USING(nom_c)  
     GROUP BY 1,2;
 ```
-### ![](icon_activity.gif) Exercicis
+## ![](icon_activity.gif) Exercicis
 
 **Ex_64** Traure el número màxim de factures fetes a un client
 
