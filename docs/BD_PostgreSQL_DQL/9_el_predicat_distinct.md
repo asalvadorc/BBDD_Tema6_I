@@ -1,4 +1,4 @@
-# 9\. El predicat DISTINCT
+# 9. El predicat DISTINCT
 
 Per defecte, si no especifiquem el contrari, eixiran _totes_ les files de la
 taula o taules que acomplesquen les condicions. Així, per exemple, si de la

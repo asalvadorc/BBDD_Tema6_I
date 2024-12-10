@@ -24,14 +24,14 @@ tercera part d'aquest tema, quan les sentències de creació de taules.
 Per tant, fixeu-vos sobretot en els opradors **aritmètics** , de **cadena** i
 de **comparació**.
 
-**<u>Operadors aritmètics</u>**
+**Operadors aritmètics**{.azul}
 
 
 + |  Suma |  - |  Resta |  * |  Multiplicació |  / |Divisió  
 ---|---|---|---|---|---|---|---
 ^ |  Exponenciació |  \|/ |  Arrel quadrada |  ! |  Factorial |  % |  Mòdul (rest de la divisió)  
   
-Exemples
+**<u>Exemples</u>**
 ```
 SELECT |/16;
 
@@ -39,16 +39,18 @@ SELECT 5 ^ 3;
 
 SELECT 5!;
 ```
-**<u>Operadors de cadena</u>**
+
+**Operadors de cadena**{.azul}
 
 \|\| |  Concatenació  
 ---|---  
   
-Exemples
+**<u>Exemples</u>**
 ```
 SELECT 'Data i hora actual: ' || Now();
 ```
-**<u>Operadors de comparació</u>**
+
+**Operadors de comparació**{.azul}
 
 = |  Igual | < > | Distint | != |  Distint | | |
 ---|---|---|---|---|---|---|---
@@ -58,9 +60,12 @@ SELECT 'Data i hora actual: ' || Now();
 S'utilitzen principalment en les condicions. Tornen sempre un valor booleà
 (true o false)
 
-**<u>Operador conversor de tipus</u>**
 
-**::_tipus_**
+**Operadors conversor de tipus**{.azul}
+
+```
+::tipus
+```
 
 Servirà per a convertir alguna dada a algun tipus de dades.
 

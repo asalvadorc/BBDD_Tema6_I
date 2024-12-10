@@ -1,4 +1,4 @@
-# 7\. La clàusula HAVING
+# 7. La clàusula HAVING
 
 Aquesta clàusula acompanya normalment a la de **GROUP BY** , i servirà pera
 poder triar alguns grups que acomplesquen una determinada condició.

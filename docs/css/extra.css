@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, h5, h6, p, li, ul, ol, blockquote, pre, code, table {
+body, p, li, ul, ol, blockquote, pre, code, table {
     font-size: 14px !important;  /* Ajusta este valor según tus preferencias */
     line-height: 1.6;  /* Mejora la legibilidad */
 }
@@ -15,7 +15,7 @@ p {
 }
 
 .azul {
-    color: blue !important;
+    color: #2980B9 !important;
 }
 
 .verde {

@@ -1,4 +1,4 @@
-# 2.1 Introducció
+# 1 Introducció
 
 En la primera part del tema s'ha repassat tota la sintaxi de la sentència
 SELECT. Una vegada conegudes totes les clàusules, és moment de traure tota la

@@ -11,7 +11,8 @@ multitud de funcions que existeixen. Les agruparem per categories.
 Evidentment aquest recull no és per aprendre'l de memòria, sinó que servirà de
 consulta.
 
-**<u>Funcions numèriques</u>**
+
+**Funcions numèriques**{.azul}
 
 Funció  |  Explicació  |  Funció  |  Explicació   
 ---|---|---|---  
@@ -29,7 +30,8 @@ Per exemple, podríem simular el llançament d'un dau d'aquesta manera:
 ```
 SELECT TRUNC(RANDOM()*6+1);
 ```
-**<u>Funcions de caràcters</u>**
+
+**Funcions de caràcters**{.azul}
 
 Funció  |  Explicació 
 ---|---
@@ -89,7 +91,8 @@ SUBSTR(latitud,STRPOS(latitud,'º')+1,STRPOS(latitud,'''')-STRPOS(latitud,'º')-
 SUBSTR(latitud,STRPOS(latitud,'''')+1,STRPOS(latitud,'"')-STRPOS(latitud,'''')-1)  
 FROM POBLACIONS;
 ```
-**<u>Funcions de data</u>**
+
+**Funcions de data**{.azul}
 
 Funció |  Explicació  
 ---|---  
@@ -122,7 +125,8 @@ Per exemple, l'àrea d'un cercle:
 ```
 SELECT AREA('((5,5),2)'::CIRCLE);
 ```
-**<u>Funcions IP</u>**
+
+**Funcions**{.azul}
 
 Funció |  Explicació |  Exemple |  Resultat  
 ---|---|---|---  
@@ -131,7 +135,8 @@ MASKLEN(ip) |  Trau el número de bits de la màscara |  MASKLEN('192.168.2.15/2
 SET_MASKLEN(ip,n) |  Posa el número de bits de la màscara als especificats |  SET_MASKLEN('192.168.2.15/24',16) |  192.168.2.15/16  
 NETMASK(ip) |  Construeix la màscara de xarxa |  NETMASK('192.168.2.15/24') |  255.255.255.0  
   
-**<u>Funcions de conversió</u>**
+
+**Funcions de conversió**{.azul}
 
 Serviran per a passar d'un tipus a un altre, on un d'ells serà el tipus de
 cadena (VARCHAR)
@@ -169,7 +174,7 @@ veurem com canviar d'idioma.
   
 
   
-<u>Exemples:</u>
+**<u>Exemples:</u>**
 
 Si ara fóra **9/1/16 13:39** (en el servidor, no en la vostra màquina), i
 férem **SELECT TO_CHAR(NOW(),'_format_****');**

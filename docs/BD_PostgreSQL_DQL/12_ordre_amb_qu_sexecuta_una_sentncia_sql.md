@@ -1,4 +1,4 @@
-# 12\. Ordre amb què s'executa una sentència SQL
+# 12. Ordre amb què s'executa una sentència SQL
 
 Com hem vist, i com veurem en la Part II d'aquest tema, la sentència
 **SELECT** és molt completa i molt potent. Pot fer moltes coses.

@@ -24,7 +24,7 @@ nav:
     - 4. Operadors i Funcions de Postgres:
       - 4.1. Operadors: BD_PostgreSQL_DQL/6_operadors.md
       - 4.2. Funcions: BD_PostgreSQL_DQL/7_funcions.md
-    - DQL Consultes (part I):  
+  - DQL Consultes (part I):  
       - 1. La consulta SELECT: BD_PostgreSQL_DQL/1_la_consulta_select.md
       - 2. Consulta bàsica: BD_PostgreSQL_DQL/2_consulta_bsica.md
       - 3. Àlies en les columnes: BD_PostgreSQL_DQL/3_lies_en_les_columnes.md
@@ -38,7 +38,7 @@ nav:
       - 11. Consulta de creació de taules: BD_PostgreSQL_DQL/11_consulta_de_creaci_de_taules.md
       - 12. Ordre amb que s'executa una sentència SQL: BD_PostgreSQL_DQL/12_ordre_amb_qu_sexecuta_una_sentncia_sql.md
       - Exercicis amb els resultats (part I): BD_PostgreSQL_DQL/exercicis_de_tot_el_tema_amb_els_resultats.md    
-    - DQL Consultes avançades (part II):
+  - DQL Consultes avançades (part II):
       - 1. Introducció: BD_PostgreSQL_DQL_Avancat/21_introducci.md
       - 2. Combinacions de taules: BD_PostgreSQL_DQL_Avancat/22_combinacions_de_taules.md
       - 3. Subconsultes: BD_PostgreSQL_DQL_Avancat/23_subconsultes.md

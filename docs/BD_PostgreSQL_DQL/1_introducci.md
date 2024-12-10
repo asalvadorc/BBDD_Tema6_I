@@ -1,4 +1,4 @@
-# 1\. Introducció
+# 1. Introducció
 
 
 **SQL** és un llenguatge per a organitzar, gestionar i recuperar dades

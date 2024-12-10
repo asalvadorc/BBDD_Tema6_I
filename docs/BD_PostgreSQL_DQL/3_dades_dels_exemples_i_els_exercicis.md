@@ -1,4 +1,4 @@
-# 3 Esquemes Factura i Geo
+# 3. Esquemes Factura i Geo
 
 **3.1 Dades dels exemples**
 

@@ -1,4 +1,4 @@
-# 5\. Funcions d'agregat
+# 5. Funcions d'agregat
 
 Les **funcions d'agregat**, o funcions de domini agregat, són aquelles que
 trauen un resultat a partir dels valors d'un determinat camp en un conjunt de

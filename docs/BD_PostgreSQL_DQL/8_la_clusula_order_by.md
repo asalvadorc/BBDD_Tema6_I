@@ -1,4 +1,4 @@
-# 8\. La clàusula ORDER BY
+# 8. La clàusula ORDER BY
 
 Ordena les files del resultat respecte l'ordre especificat
 

@@ -1,5 +1,5 @@
 
-# 11\. Consulta de creació de taules
+# 11. Consulta de creació de taules
 
 
 A banda de poder consultar informació de una o més d'una taula, la sentència

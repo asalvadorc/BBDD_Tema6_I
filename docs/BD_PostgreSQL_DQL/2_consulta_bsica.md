@@ -1,4 +1,4 @@
-# 2\. Consulta bàsica
+# 2. Consulta bàsica
 
 !!! note "Nota importante"
     Este es un ejemplo de una nota en Markdown con estilo Read the Docs.

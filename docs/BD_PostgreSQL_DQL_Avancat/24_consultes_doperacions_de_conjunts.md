@@ -1,4 +1,4 @@
-# 2.4 Consultes d'operacions de conjunts
+# 4 Consultes d'operacions de conjunts
 
 Agruparem en aquest apartat les consultes que tracten conjunts de files per a
 fer operacions d'algebra de conjunts: **unió** , **intersecció** i
@@ -6,7 +6,10 @@ fer operacions d'algebra de conjunts: **unió** , **intersecció** i
 
 Toters aquestes consultes ajunten els resultats de dues o més consultes.
 
-**_Sintaxi de la UNIÓ_**
+## 4.1 Unió
+
+**<u>Sintaxi</u>**
+
 ```
 [TABLE] consulta1  
 UNION [ALL]  
@@ -48,10 +51,14 @@ a la província de València. Per tant és una fila que apareixerà tant en la
 primera com en la segona consulta. Si fem UNION no es repetirà, però si fem
 UNION ALL sí que es repetirà.
 
-**_Sintaxi de la INTERSECCIÓ_**
+## 4.2 Intersecció
 
 És identica a la unió, però posant la paraula **INTERSECT** , i servirà per a
 traure únicament les files que estan en les dues consultes.
+
+
+
+**<u>Sintaxi</u>**
 ```
 [TABLE] consulta1  
 INTERSECT [ALL]  
@@ -74,11 +81,13 @@ En principi no eixiran files repetides, a no ser que posem **ALL**
     FROM COMARQUES INNER JOIN POBLACIONS USING (nom_c)  
   ORDER BY nom_c;
 ```
-**_Sintaxi de la DIFERÈNCIA_**
+## 4.3 Diferència
 
 És identica a les anteriors, però posant la paraula **EXCEPT** , i servirà per
 a traure les files que estan en la primera consulta però que no estan en la
 segona.
+
+**<u>Sintaxi</u>**
 ```
 [TABLE] consulta1  
 EXCEPT [ALL]  
@@ -90,7 +99,7 @@ tornen el mateix nombre de camps, i de tipus compatibles.
 
 En principi no eixiran files repetides, a no ser que posem **ALL**
 
-**Exemple**
+**<u>Exemple</u>**
 
   1) Aprofitem el mateix exemple d'abans per a comprovar que amb EXCEPT no eixirà la comarca València, ja que hi ha una fila idèntica en la segona consulta:
 ```

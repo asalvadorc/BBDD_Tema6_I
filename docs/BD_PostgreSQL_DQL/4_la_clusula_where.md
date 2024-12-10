@@ -1,4 +1,4 @@
-# 4\. La clàusula WHERE
+# 4. La clàusula WHERE
 
 Ens servirà per establir filtres. Només eixiran les files que satisfacen la
 condició del filtre.

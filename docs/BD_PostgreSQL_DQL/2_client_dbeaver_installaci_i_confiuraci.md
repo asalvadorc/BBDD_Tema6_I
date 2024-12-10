@@ -1,4 +1,4 @@
-##  DBeaver: instal·lació i confiuració
+##  2. DBeaver: instal·lació i confiuració
 
 Com ja s'ha comentat, en aquest tema utilitzarem el Sistema Gestor de Bases de
 Dades **PostgreSQL**. Aquest SGBD utilitza l'arquitectura **client-servidor**.

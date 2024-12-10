@@ -1,4 +1,4 @@
-# 1\. La consulta SELECT
+# 1. La consulta SELECT
 
 Com el mateix nom indica SQL (_Structured Query Language_), la consulta o
 interrogació de la Base de Dades és l'ànima del SQL. I la instrucció que ens

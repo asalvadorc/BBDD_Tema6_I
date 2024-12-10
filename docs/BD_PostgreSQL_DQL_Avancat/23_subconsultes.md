@@ -1,4 +1,4 @@
-# 2.3 Subconsultes
+# 3 Subconsultes
 
 Una subconsulta és una consulta dins d'una altra consulta. Aquesta subconsulta
 pot tenir tots els elements que hem vist fins ara.
@@ -14,7 +14,7 @@ SELECT, és a dir, en les columnes que van després del SELECT.
 
   * Si va en el mateix **SELECT** normalment serà per a traure un resultat global que no afecta a la resta de la consulta
 
-**_Sintaxi en el FROM_**
+## 3.1 Sintaxi en el FROM
 ```
   SELECT ...  
     FROM ( _Subconsulta_) AS _Nom_Subconsulta_
@@ -42,7 +42,7 @@ trau el que necessitem (en l'exemple veure si trau el nombre de poblacions de
 cadascuna de les 34 comarques), i quan estiguem segurs que funciona bé crear
 la consulta principal.
 
-**_Sintaxi en el WHERE o el HAVING_**
+## 3.2 Sintaxi en el WHERE o el HAVING
 ```
   SELECT ...  
     FROM Taula  
@@ -72,9 +72,9 @@ subconsulta ens torna un únic valor, la mitjana d'altures, i en la consulta
 principal es compara cada altura amb aquest valor. Posteriorment veurem com
 solucionar el problema de que la subconsulta torne més d'un valor.
 
-Els operadors de la condició poden ser de 3 tipus:
+  **Operadors de comparació i predicats ANY, ALL, SOME**{.azul}
 
-  * **De comparació**. És com l'exemple de dalt, però amb qualsevol operador de comparació. Es compara el camp (o l'expressió) amb el resultat de la subconsulta. Si la subconsulta només torna un valor, no hi ha més problema, però si torna més d'un valor (més d'una fila) de moment seria incorrecte (no es pot comparar un camp amb uns quants valors). Posem un altre exemple per il·lustrar. Traure la població més alta es podria fer d'aquesta manera.
+  És com l'exemple de dalt, però amb qualsevol operador de comparació. Es compara el camp (o l'expressió) amb el resultat de la subconsulta. Si la subconsulta només torna un valor, no hi ha més problema, però si torna més d'un valor (més d'una fila) de moment seria incorrecte (no es pot comparar un camp amb uns quants valors). Posem un altre exemple per il·lustrar. Traure la població més alta es podria fer d'aquesta manera.
 ```
   SELECT *  
     FROM POBLACIONS  
@@ -125,7 +125,9 @@ Els operadors de la condició poden ser de 3 tipus:
 > aquesta consulta en els exemples posteriors, però per al fet de comparar amb
 > molts valors ens va bé.
 
-* **L'operador IN**. No serà problema que la subconsulta torne un valor o
+**L'operador IN**{.azul}
+
+No serà problema que la subconsulta torne un valor o
 molts. La condició serà certa si el valor del camp (o de l'expressió) està
 entre la llista de valors que torna la subconsulta. També poden utilitzar
 NOT IN, i la condició serà certa quan el valor del camp no està entre la
@@ -140,7 +142,9 @@ llista
     WHERE cod_m NOT IN (SELECT cod_m  
                         FROM INSTITUTS)
 ```
-  * **L'operador EXISTS**. És segurament el més incòmode. No es compara un camp (o expressió) amb la subconsulta, sinó únicament es posa **[NOT] EXISTS (_subconsulta_)** . La condició serà certa si la subconsulta torna **alguna fila** , i no serà certa si no torna cap fila. Intentem fer el mateix exemple d'abans, el dels pobles sense institut. Hem d'aconseguir que la subconsulta no tinga cap fila en el cas dels que no tenen institut. De paraula ho podem dir així: volem els pobles per als quals no existeix cap fila en INSTITUTS amb el mateix codi de municipi. Ara ja es pot intuir per on van els tirs:
+**L'operador EXISTS**{.azul}
+  
+És segurament el més incòmode. No es compara un camp (o expressió) amb la subconsulta, sinó únicament es posa **[NOT] EXISTS (_subconsulta_)** . La condició serà certa si la subconsulta torna **alguna fila** , i no serà certa si no torna cap fila. Intentem fer el mateix exemple d'abans, el dels pobles sense institut. Hem d'aconseguir que la subconsulta no tinga cap fila en el cas dels que no tenen institut. De paraula ho podem dir així: volem els pobles per als quals no existeix cap fila en INSTITUTS amb el mateix codi de municipi. Ara ja es pot intuir per on van els tirs:
 ```
   SELECT *  
     FROM POBLACIONS  
@@ -153,7 +157,7 @@ llista
 > això si volem fer referència a un camp de la taula o taules de la consulta
 > principal hem de posar el nom de la taula davant.
 
-**_Sintaxi en el SELECT_**
+## 3.3 Sintaxi en el SELECT
 ```
   SELECT ... ( _Subconsulta_)  
   FROM Taula

@@ -1,4 +1,4 @@
-# 6\. La clàusula GROUP BY
+# 6. La clàusula GROUP BY
 
 Agrupa totes les files amb valors iguals d'una o d'unes columnes
 

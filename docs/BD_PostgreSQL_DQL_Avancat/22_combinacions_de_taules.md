@@ -1,4 +1,4 @@
-# 2.2 Combinacions de taules
+# 2 Combinacions de taules
 
 Vam veure en la sentència bàsica que en la clàusula FROM posàvem la taula **o
 taules** d'on s'agafarien les dades, però en tots els exemples posteriors
@@ -15,7 +15,7 @@ d'una taula.
 
   * La tercera és una variant de l'anterior, la **combinació externa** , molt útil en alguns casos.
 
-## 2.2.1 Producte cartesià
+## 2.1 Producte cartesià
 
 La manera més senzilla és posar les taules separades per comes, però
 segurament el resultat no és el que esperàvem.
@@ -54,7 +54,7 @@ Rarament voldrem fer un producte cartesià. El més normal serà combinar una
 miqueta millor les taules. En el nostre exemple segurament ens interessarà
 molt més combinar _cada comarca amb les seues poblacions_.
 
-## 2.2.2 Combinació interna
+## 2.2 Combinació interna
 
 
 **Combinació de dues taules: Sintaxi**{.azul}
@@ -75,7 +75,7 @@ següent:
   SELECT ...  
     FROM taula1 INNER JOIN taula2 ON _condició_
 ```
-i on la condició de la reunió consistirà en comparar un camp de cada taula.
+La condició de la reunió consistirà en comparar un camp de cada taula.
 Els dos camps hauran de ser del mateix tipus, però no caldrà que tinguen el
 mateix nom. Les files que eixiran al resultat seran les que acompliran la
 condició.
@@ -127,7 +127,7 @@ sobren:
   SELECT COMARQUES.nom_c, POBLACIONS.nom  
     FROM COMARQUES NATURAL JOIN POBLACIONS
 ```
-**Exemples**
+**<u>Exemples</u>**
 
   1) **Traure el noms de les Poblacions i els noms dels Instituts que hi ha en elles.**
 
@@ -175,7 +175,7 @@ nul).
     FROM COMARQUES INNER JOIN POBLACIONS ON COMARQUES.nom_c=POBLACIONS.nom_c  
     GROUP BY COMARQUES.nom_c, provincia;
 ```
-Tres o més taules
+ **Tres o més taules**{.azul}
 
 Si tenim més de 2 taules, haurem de procedir de la mateixa manera, ja que si
 deixem de combinar alguna taula, tindrem el producte cartesià. Com en la
@@ -211,11 +211,14 @@ podríem pensar que les úniques taules que ens fan falta són COMARQUES (per a
 traure el nom i província de la comarca) i INSTITUTS (per a poder comptar els
 INSTITUTS). Si intentem fer aquesta consulta, **NO** obtindrem el resultat
 desitjat.
-```
-  SELECT nom_c, provincia, COUNT(codi)  
-    FROM COMARQUES , INSTITUTS  
-    GROUP BY nom_c, provincia  
-```
+
+
+!!! warning "Aviso"
+    **SELECT nom_c, provincia, COUNT(codi)**{.rojo}  
+    **FROM COMARQUES , INSTITUTS)**{.rojo}  
+    **GROUP BY nom_c, provincia)**{.rojo}  
+
+
 Evidentment hi haurà un producte cartesià, ja que no hem combinat les taules,
 i ens eixirà per a cada comarca 375 instituts, que és el número total
 d'instituts, ja que s'ha combinat cada comarca amb tots els instituts.
@@ -259,19 +262,19 @@ Suposem que la nostra taula de POBLACIONS fóra lleugerament diferent, i que
 incorporara un camp nou amb el codi del municipi que és capital de comarca de
 la població:
 ```
-POBLACIONS  
-(  
-cod_m numeric(5,0) CONSTRAINT cp_pobl PRIMARY KEY,  
-nom character varying(50) NOT NULL,  
-poblacio numeric(6,0),  
-extensio numeric(6,2),  
-altura numeric(4,0),  
-longitud character varying(50),  
-latitud character varying(50),  
-llengua character(1),  
-nom_c character varying(50),  
-cod_capital numeric(5,0) CONSTRAINT ce_capital REFERENCES POBLACIONS(cod_m)  
-)
+  POBLACIONS  
+  (  
+  cod_m numeric(5,0) CONSTRAINT cp_pobl PRIMARY KEY,  
+  nom character varying(50) NOT NULL,  
+  poblacio numeric(6,0),  
+  extensio numeric(6,2),  
+  altura numeric(4,0),  
+  longitud character varying(50),  
+  latitud character varying(50),  
+  llengua character(1),  
+  nom_c character varying(50),  
+  ***cod_capital numeric(5,0) CONSTRAINT ce_capital REFERENCES POBLACIONS(cod_m)  
+  )
 ```
 Per a poder traure al mateix temps el nom de les poblacions i el nom de la
 seua capital de comarca no tenim prou amb posar la taula POBLACIONS una
@@ -289,10 +292,10 @@ enmig):
 ```
 En la resta de la consulta haurem d'utilitzar aquest nom. L'exemple quedarà de
 la següent manera:
-
+```
   SELECT P1.nom AS "Nom població" , P2.nom as "Nom capital"  
     FROM POBLACIONS P1 INNER JOIN POBLACIONS P2 ON P1.cod_capital=P2.cod_m
-
+```
 o de la forma alternativa:
 ```  
   SELECT P1.nom AS "Nom població" , P2.nom as "Nom capital"  
@@ -361,7 +364,7 @@ quantitat d'articles venuts de cada categoria, d'aquelles categories de les
 quals se n'han venut més de 100 unitats. Ordenar per aquest número de forma
 decendent.
 
-## 2.2.3 Combinació externa
+## 2.3 Combinació externa
 
 En ocasions ens interessarà fer una combinació diferent. Com quasi sempre ens
 basarem en un exemple. Quan en un exemple del punt anterior traíem els nom de
@@ -371,7 +374,7 @@ poblacions, fins i tot aquelles que no tenen instituts, però d'aquelles que sí
 que en tinguen traure també el nom dels instituts. Aquesta operació s'anomena
 **COMBINACIÓ EXTERNA**.
 
-**Sintaxi**
+**<u>Sintaxi</u>**
 
 Tindrem dues possibilitats: traure totes les de l'esquerra o traure totes les
 de la dreta.
@@ -450,7 +453,7 @@ I aquest serà el resultat:
 
 ![](T6_II_2_3_3.png)
 
-Exemples
+**<u>Exemples</u>**
 
   1) **Traure totes les comarques amb el número de pobles que té cadascuna, fins i tot aquelles comarques que no tinguen cap poble.**
 

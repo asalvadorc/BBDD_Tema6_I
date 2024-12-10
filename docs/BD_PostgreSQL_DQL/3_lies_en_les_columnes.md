@@ -1,4 +1,4 @@
-# 3\. Àlies en les columnes
+# 3. Àlies en les columnes
 
 Tenim també la possibilitat de donar noms (_**àlies**_) a les columnes que
 apareixeran en la capçalera de les columnes corresponents en el resultat.

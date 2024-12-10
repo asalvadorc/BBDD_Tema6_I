@@ -1,4 +1,4 @@
-# 4\. Client DBeaver: utilització
+# 4. Client DBeaver: utilització
 
 Una vegada feta la connexió, **DBeaver** ens permetrà navegar per les taules i
 altres objectes de la Base de Dades, inspeccionar les taules, i el més
