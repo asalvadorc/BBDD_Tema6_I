@@ -329,7 +329,7 @@ o de la forma alternativa:
 En ambdós casos s'ha optat per posar nom a les taules (S i C respectivament)
 per comoditat, per a que no quedara tan llarga la consulta.
 
-### ![](icon_activity.gif) Exercicis
+### :pencil2: Exercicis
 
 **Ex_51** Traure el nom dels clients amb el número de factura i la data
 (individuals, sense agrupar res) que té cada client. Trau el resultat ordenat
@@ -469,7 +469,7 @@ LEFT JOIN.
   ORDER BY 1;
 ```
 
-### ![](icon_activity.gif) Exercicis
+### :pencil2: Exercicis
 
 **Ex_60** Traure el codi i el nom dels clients que no tenen cap factura.
 

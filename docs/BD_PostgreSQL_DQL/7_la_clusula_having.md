@@ -65,7 +65,7 @@ SELECT nom_c , AVG(altura) AS "Altura mitjana" , SUM(poblacio) AS "Total poblaci
   HAVING AVG(altura) > 800;
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_28** Calcular la mitjana de quantitats demanades d'aquells articles que
 s'han demanat més de dues vegades. Observeu que la taula que ens fa falta és

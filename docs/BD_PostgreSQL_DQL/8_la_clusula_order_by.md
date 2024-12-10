@@ -100,7 +100,7 @@ SELECT nom_c, COUNT(*), SUM(poblacio)
   ORDER BY 2 , 3 DESC
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_34** Traure tots els clients ordenats per codi de població, i dins
 d'aquestos per codi postal.

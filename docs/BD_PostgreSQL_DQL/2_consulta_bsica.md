@@ -89,7 +89,7 @@ coma serveix per a separar els camps de la consulta SQL
 SELECT nom, latitud, SUBSTR(latitud,1,STRPOS(latitud,'º')-1)  
   FROM POBLACIONS;
 ```
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 En la BD **factura** , connectant com a usuari **factura_alu** :
 

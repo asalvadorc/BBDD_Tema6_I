@@ -48,7 +48,7 @@ SELECT codi AS "Codi Institut", nom as "Nom", adreca AS "Adreça", numero AS
   FROM INSTITUTS;
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_5** Traure el num_f, data i cod_ven de les factures amb les següents
 capçaleres respectivament: **Número Factura** , **data** i **Codi Venedor**

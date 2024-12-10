@@ -66,7 +66,7 @@ SELECT MAX(altura), MIN(altura)
   FROM POBLACIONS
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_15** Comptar el nombre de **clients** que tenen el **codi postal nul**.
 

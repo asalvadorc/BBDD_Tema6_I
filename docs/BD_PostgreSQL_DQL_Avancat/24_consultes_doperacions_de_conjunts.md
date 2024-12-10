@@ -110,7 +110,7 @@ En principi no eixiran files repetides, a no ser que posem **ALL**
     FROM COMARQUES INNER JOIN POBLACIONS USING (nom_c)  
   ORDER BY nom_c;
 ```
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_75** Traure el nom de tots els clients i venedors implicats en alguna
 venda del primer trimestre de 2015.

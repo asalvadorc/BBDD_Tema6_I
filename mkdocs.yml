@@ -10,6 +10,9 @@ extra_css:
 
 markdown_extensions:
   - admonition
+  - pymdownx.emoji
+  - pymdownx.extra
+  - pymdownx.superfences
   - tables    
   - attr_list
   - toc 

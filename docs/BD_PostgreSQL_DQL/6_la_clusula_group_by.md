@@ -104,7 +104,7 @@ SELECT cod_m, codpostal, COUNT(*)
   GROUP BY cod_m, codpostal
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_21** Comptar el número de pobles de cada província (és suficient traure el
 codi de la província i el número de pobles).

@@ -100,7 +100,7 @@ SELECT cod_m , COUNT(*)
   LIMIT 10 OFFSET 3
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_44** Traure tota la informació dels dos articles més cars.
 

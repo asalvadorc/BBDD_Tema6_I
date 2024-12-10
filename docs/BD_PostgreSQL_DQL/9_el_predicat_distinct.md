@@ -63,7 +63,7 @@ SELECT DISTINCT nom_c , llengua
   ORDER BY 1
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_39** Traure els venedors que han venut alguna cosa el mes de gener de
 2015.

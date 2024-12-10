@@ -60,7 +60,7 @@ podem esborrar-la amb la sentència
 DROP TABLE RESUM_COMARQUES
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_49** Crear una taula anomenada **ARTICLE_999x** , on 999 han de ser les 3
 últimes xifres del DNI, i x la lletra del teu NIF, que siga una còpia de la

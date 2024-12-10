@@ -123,7 +123,7 @@ SELECT *
   WHERE numero IS NULL;
 ```
 
-## ![](icon_activity.gif) Exercicis
+## :pencil2: Exercicis
 
 **Ex_7** Traure els **clients** de la **ciutat** amb codi **12309**.
 
