@@ -1,4 +1,6 @@
-##  2. DBeaver: instal·lació i confiuració
+# 2 DBeaver
+
+## 2.1 Instal·lació i configuració
 
 Com ja s'ha comentat, en aquest tema utilitzarem el Sistema Gestor de Bases de
 Dades **PostgreSQL**. Aquest SGBD utilitza l'arquitectura **client-servidor**.
@@ -48,7 +50,7 @@ La primera vegada que arranquem el programa, segurament ens demanarà per fer
 la primera connexió. Arribarem a la mateixa finestra cada vegada que anem a
 fer una nova connexió.
 
-**<u>Primera connexió a PostgreSQL: geo</u>**
+**Primera connexió a PostgreSQL: geo**{.azul}
 
 Especificarem que volem connectar a PostgreSQL i a continuació donarem les
 dades de connexió, que són aquestes:
@@ -66,7 +68,7 @@ Aquestes són les finestres on especificaríem l'anterior:
 ![](T6_1_3_2.png) | ![](T6_1_3_3.png)  
 ---|---  
   
-**<u>Segona connexió a PostgreSQL: factura</u>**
+**Segona connexió a PostgreSQL: factura**{.azul}
 
 Per als exercicis treballarem sobre una altra Base de Dades més completa que
 ens done més joc a l'hora de fer les sentències SQL. La Base de Dades
@@ -81,9 +83,10 @@ connexió:
 
 Aquestes són les pantalles on faríem la connexió:
 
-![](T6_1_3_2.png) | ![](T6_1_3_4.png)  
+![](T6_1_3_2.png) | ![](T6_1_3_4.png) 
 ---|---  
-<!-->  
+
+<!--
 **<u>Exemple de connexió a Access: Empresa.accdb</u>**
 
 Únicament a mode il·lustratiu anem a mostrar una altra connexió diferent a les
@@ -99,7 +102,8 @@ Ací presentem les pantalles per a fer la connexió:
 ![](T6_1_1_4.png) | ![](T6_1_1_5.png)  
 ---|---  
 -->  
-## DBeaver: utilització
+
+## 2.2 Utilització
 
 Una vegada feta la connexió, **DBeaver** ens permetrà navegar per les taules i
 altres objectes de la Base de Dades, inspeccionar les taules, i el més

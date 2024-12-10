@@ -1,6 +1,6 @@
 # 3. Esquemes Factura i Geo
 
-**3.1 Dades dels exemples**
+**Dades dels exemples**{.azul}
 
 Tots els exemples que es mostraran en aquest tema s'intentaran fer sobre la
 connexió que ja tenim feta, és a dir, al servidor de l'Institut, connectant
@@ -11,7 +11,7 @@ Entitat-Relació i en el Model Relacional:
 
 ![](geo.png)
 
-**3.2 Dades dels  exercicis**
+**Dades dels  exercicis**{.azul}
 
 Per als exercicis treballarem sobre una altra Base de Dades més completa que
 ens done més joc a l'hora de fer les sentències SQL. La Base de Dades
