@@ -1,10 +1,7 @@
 # 2. Consulta bàsica
 
-!!! note "Nota importante"
-    Este es un ejemplo de una nota en Markdown con estilo Read the Docs.
 
-    
-  El mínim que s'ha d'indicar en una instrucció SELECT és les columnes que volem
+El mínim que s'ha d'indicar en una instrucció SELECT és les columnes que volem
 i la seua procedència, que pot ser una o més d'una taula.
 
 **<u>Sintaxi</u>**
