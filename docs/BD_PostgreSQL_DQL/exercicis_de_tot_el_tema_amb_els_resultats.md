@@ -188,20 +188,20 @@ del poble i aquest número
 
 ![](Ex_6_29.png)
 
-**Ex_30** **Traure les categories que tenen més d'un article "car" (de més de
+**Ex_30** Traure les categories que tenen més d'un article "car" (de més de
 100 €). Observeu que també ens eixirà la categoria NULL, és a dir, apareixerà
 com una categoria aquells articles que no estan catalogats.
 
 ![](Ex_6_30.png)
 
-**Ex_31** **Traure els clients que tenen més d'una factura, amb el número de
+**Ex_31** Traure els clients que tenen més d'una factura, amb el número de
 factures.
 
 ![](Ex_6_31.png)
 
 Un total de **33 files**
 
-**Ex_32** **Modificar l'anterior per a traure els clients que tenen més
+**Ex_32** Modificar l'anterior per a traure els clients que tenen més
 d'una factura en el primer trimestre.
 
 ![](Ex_6_32.png)
