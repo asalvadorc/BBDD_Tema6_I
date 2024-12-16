@@ -10,7 +10,7 @@ d'una taula.
   * La primera és el **producte cartesià** , que no utilitzarem mai, però hem de saber en què consisteix per poder evitar-lo.
   
 
-  * La segona serà la més utiilitzada, la **combinació**(que de vegades anomenarem **reunió**).
+  * La segona serà la més utilitzada, la **combinació** (que de vegades anomenarem **reunió**).
   
 
   * La tercera és una variant de l'anterior, la **combinació externa** , molt útil en alguns casos.
@@ -44,7 +44,7 @@ combinat cada comarca amb tots els pobles (siguen de la comarca o no).
 
 ![](T6_II_2_1_1.png)
 
-Aquesta operació s'anomena **PRODUCTE CARTESIÀ**(_**cross join**_), i es
+Aquesta operació s'anomena **PRODUCTE CARTESIÀ** (_**cross join**_), i es
 caracteritza en què cadascuna de les files d'una taula es combina amb totes
 les files de l'altra taula. El nombre de files resultant serà, doncs, el
 resultat de multiplicar el nombre de files d'una taula pel nombre de files de
