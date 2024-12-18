@@ -170,11 +170,11 @@ podem comptar files (COUNT(*)), però potser siga millor comptar algun camp de
 la taula POBLACIONS, per exemple cod_m, que és la clau principal (recordem que
 els valors nuls no es comptaran, i cod_m per ser clau principal no pot ser
 nul).
-```
+
   SELECT COMARQUES.nom_c, provincia, COUNT(cod_m) AS Quants  
     FROM COMARQUES INNER JOIN POBLACIONS ON COMARQUES.nom_c=POBLACIONS.nom_c  
     GROUP BY COMARQUES.nom_c, provincia;
-```
+
 
 **Tres o més taules**{.azul}
 
