@@ -175,7 +175,8 @@ nul).
     FROM COMARQUES INNER JOIN POBLACIONS ON COMARQUES.nom_c=POBLACIONS.nom_c  
     GROUP BY COMARQUES.nom_c, provincia;
 ```
- **Tres o més taules**{.azul}
+
+**Tres o més taules**{.azul}
 
 Si tenim més de 2 taules, haurem de procedir de la mateixa manera, ja que si
 deixem de combinar alguna taula, tindrem el producte cartesià. Com en la
