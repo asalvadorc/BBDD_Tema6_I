@@ -346,7 +346,7 @@ tenen, ordenades per aquest número de major a menor
 
 **Ex_55** Traure el número de factura, data, codi de client, total de la
 factura (amb l'àlies IMPORT) i total de la factura aplicant descomptes
-d'article (amb àlies DESCOMPTE_1), com en la consulta**Ex_33** , però sense el
+d'article (amb àlies DESCOMPTE_1), com en la consulta **Ex_33** , però sense el
 límit de les 10 línies de factura. Ordena per número de factura.
 
 **Ex_56** Modificar l'anterior per a aplicar també el descompte de la
